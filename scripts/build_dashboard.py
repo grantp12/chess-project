@@ -78,7 +78,7 @@ for game_file, classification, count in cursor.fetchall():
 
 # Worst moves
 cursor.execute("""
-    SELECT game_file, move_number, move, classification, eval_drop
+    SELECT game_file, move_number, player, move, classification, eval_drop
     FROM analysis
     ORDER BY eval_drop DESC
     LIMIT 10
@@ -332,14 +332,15 @@ html += """
     <div class="card">
         <h2>Worst Moves</h2>
         <table>
-            <thead><tr><th>Game</th><th>Move #</th><th>Move</th><th>Type</th><th>Eval Drop</th></tr></thead>
+            <thead><tr><th>Game</th><th>Move #</th><th>Player</th><th>Move</th><th>Type</th><th>Eval Drop</th></tr></thead>
             <tbody>
 """
 
-for game_file, move_num, move, classification, drop in worst_moves:
+for game_file, move_num, player, move, classification, drop in worst_moves:
     html += f"""<tr>
         <td>{game_file}</td>
         <td>{move_num}</td>
+        <td>{'&#9817;' if player == 'white' else '&#9823;'} {player}</td>
         <td style="font-family:monospace;font-weight:600">{move}</td>
         <td><span class="badge {classification}">{classification}</span></td>
         <td style="color:#f87171;font-weight:600">-{drop:.1f}</td>

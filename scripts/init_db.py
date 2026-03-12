@@ -3,8 +3,9 @@ import sqlite3
 conn = sqlite3.connect("chess.db")
 cursor = conn.cursor()
 
+cursor.execute("DROP TABLE IF EXISTS analysis")
 cursor.execute("""
-CREATE TABLE IF NOT EXISTS analysis (
+CREATE TABLE analysis (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     game_file TEXT,
     move_number INTEGER,
