@@ -10,9 +10,13 @@ CREATE TABLE analysis (
     game_file TEXT,
     move_number INTEGER,
     player TEXT,
+    is_user INTEGER,
     move TEXT,
     classification TEXT,
-    eval_drop REAL
+    eval_drop REAL,
+    eval_before REAL,
+    eval_after REAL,
+    phase TEXT
 )
 """)
 

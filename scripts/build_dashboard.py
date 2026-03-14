@@ -66,20 +66,60 @@ for filename in sorted(os.listdir(BASE_DIR), key=lambda f: int(f.replace("game_"
 conn = sqlite3.connect(DB_PATH)
 cursor = conn.cursor()
 
-# Mistakes per game
+# User's mistakes per game (only user's moves, excluding "good")
 cursor.execute("""
     SELECT game_file, classification, COUNT(*)
     FROM analysis
+    WHERE is_user = 1 AND classification != 'good'
     GROUP BY game_file, classification
 """)
 mistakes_by_game = defaultdict(lambda: {"blunder": 0, "mistake": 0, "inaccuracy": 0})
 for game_file, classification, count in cursor.fetchall():
     mistakes_by_game[game_file][classification] = count
 
-# Worst moves
+# Accuracy per game: average centipawn loss for user's moves
 cursor.execute("""
-    SELECT game_file, move_number, player, move, classification, eval_drop
+    SELECT game_file, AVG(CASE WHEN eval_drop > 0 THEN eval_drop ELSE 0 END), COUNT(*)
     FROM analysis
+    WHERE is_user = 1
+    GROUP BY game_file
+""")
+accuracy_by_game = {}
+for game_file, avg_loss, move_count in cursor.fetchall():
+    # Convert avg centipawn loss to accuracy percentage
+    # Formula: accuracy = max(0, 100 - avg_loss * 20)
+    # avg_loss of 0 = 100%, avg_loss of 5 = 0%
+    accuracy = max(0, min(100, 100 - (avg_loss or 0) * 20))
+    accuracy_by_game[game_file] = round(accuracy, 1)
+
+# Phase analysis: user's avg centipawn loss by phase
+cursor.execute("""
+    SELECT phase, AVG(CASE WHEN eval_drop > 0 THEN eval_drop ELSE 0 END), COUNT(*)
+    FROM analysis
+    WHERE is_user = 1
+    GROUP BY phase
+""")
+phase_stats = {}
+for phase, avg_loss, count in cursor.fetchall():
+    accuracy = max(0, min(100, 100 - (avg_loss or 0) * 20))
+    phase_stats[phase] = {"accuracy": round(accuracy, 1), "moves": count, "avg_loss": round(avg_loss or 0, 2)}
+
+# Phase mistakes breakdown (user only)
+cursor.execute("""
+    SELECT phase, classification, COUNT(*)
+    FROM analysis
+    WHERE is_user = 1 AND classification != 'good'
+    GROUP BY phase, classification
+""")
+phase_mistakes = defaultdict(lambda: {"blunder": 0, "mistake": 0, "inaccuracy": 0})
+for phase, classification, count in cursor.fetchall():
+    phase_mistakes[phase][classification] = count
+
+# Worst moves (user only)
+cursor.execute("""
+    SELECT game_file, move_number, player, move, classification, eval_drop, phase
+    FROM analysis
+    WHERE is_user = 1 AND classification != 'good'
     ORDER BY eval_drop DESC
     LIMIT 10
 """)
@@ -87,13 +127,14 @@ worst_moves = cursor.fetchall()
 
 conn.close()
 
-# ── Attach mistake counts to game data ──
+# ── Attach stats to game data ──
 
 for g in games_data:
     m = mistakes_by_game.get(g["file"], {"blunder": 0, "mistake": 0, "inaccuracy": 0})
     g["blunders"] = m["blunder"]
     g["mistakes"] = m["mistake"]
     g["inaccuracies"] = m["inaccuracy"]
+    g["accuracy"] = accuracy_by_game.get(g["file"], 0)
 
 # ── Compute stats ──
 
@@ -104,8 +145,8 @@ draws = sum(1 for g in games_data if g["result"] == "draw")
 
 white_games = [g for g in games_data if g["color"] == "white"]
 black_games = [g for g in games_data if g["color"] == "black"]
-white_wins = sum(1 for g in white_games if g["result"] == "win")
-black_wins = sum(1 for g in black_games if g["result"] == "win")
+
+avg_accuracy = round(sum(g["accuracy"] for g in games_data) / total, 1) if total else 0
 
 # Opening stats
 opening_stats = defaultdict(lambda: {"wins": 0, "losses": 0, "draws": 0, "total": 0})
@@ -121,6 +162,14 @@ top_openings = sorted(opening_stats.items(), key=lambda x: x[1]["total"], revers
 ratings = [g["rating"] for g in games_data]
 rating_min = min(ratings)
 rating_max = max(ratings)
+
+# Phase data for chart
+phases_order = ["opening", "middlegame", "endgame"]
+phase_labels = json.dumps(["Opening (1-15)", "Middlegame (16-30)", "Endgame (30+)"])
+phase_accuracy_data = json.dumps([phase_stats.get(p, {}).get("accuracy", 0) for p in phases_order])
+phase_blunders = json.dumps([phase_mistakes.get(p, {}).get("blunder", 0) for p in phases_order])
+phase_mistakes_data = json.dumps([phase_mistakes.get(p, {}).get("mistake", 0) for p in phases_order])
+phase_inaccuracies = json.dumps([phase_mistakes.get(p, {}).get("inaccuracy", 0) for p in phases_order])
 
 # ── Build HTML ──
 
@@ -180,6 +229,7 @@ h1 {{
 .stat-card.loss .value {{ color: #f87171; }}
 .stat-card.draw .value {{ color: #fbbf24; }}
 .stat-card.rating .value {{ color: #60a5fa; }}
+.stat-card.accuracy .value {{ color: #a78bfa; }}
 
 .grid {{
     display: grid;
@@ -254,9 +304,40 @@ tr:hover td {{
 .bar.win-bar {{ background: #4ade80; }}
 .bar.loss-bar {{ background: #f87171; }}
 .bar.draw-bar {{ background: #fbbf24; }}
+.phase-card {{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px;
+    background: #222;
+    border-radius: 8px;
+    flex: 1;
+}}
+.phase-card .phase-name {{
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}}
+.phase-card .phase-accuracy {{
+    font-size: 36px;
+    font-weight: 700;
+}}
+.phase-card .phase-detail {{
+    font-size: 12px;
+    color: #666;
+    margin-top: 4px;
+}}
+.phase-row {{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}}
 
 @media (max-width: 800px) {{
     .grid {{ grid-template-columns: 1fr; }}
+    .phase-row {{ flex-direction: column; }}
 }}
 </style>
 </head>
@@ -272,6 +353,7 @@ tr:hover td {{
     <div class="stat-card draw"><div class="value">{draws}</div><div class="label">Draws</div></div>
     <div class="stat-card rating"><div class="value">{rating_max}</div><div class="label">Peak Rating</div></div>
     <div class="stat-card"><div class="value">{round(wins/total*100)}%</div><div class="label">Win Rate</div></div>
+    <div class="stat-card accuracy"><div class="value">{avg_accuracy}%</div><div class="label">Avg Accuracy</div></div>
 </div>
 
 <div class="grid full">
@@ -281,13 +363,54 @@ tr:hover td {{
     </div>
 </div>
 
+<div class="grid full">
+    <div class="card">
+        <h2>Accuracy Over Time</h2>
+        <div class="chart-container"><canvas id="accuracyChart"></canvas></div>
+    </div>
+</div>
+
+<div class="grid full">
+    <div class="card">
+        <h2>Performance by Game Phase</h2>
+        <div class="phase-row">
+"""
+
+# Phase summary cards
+for phase in phases_order:
+    ps = phase_stats.get(phase, {"accuracy": 0, "moves": 0, "avg_loss": 0})
+    pm = phase_mistakes.get(phase, {"blunder": 0, "mistake": 0, "inaccuracy": 0})
+    label = {"opening": "Opening (1-15)", "middlegame": "Middlegame (16-30)", "endgame": "Endgame (30+)"}[phase]
+    # Color accuracy
+    acc = ps["accuracy"]
+    if acc >= 70:
+        color = "#4ade80"
+    elif acc >= 50:
+        color = "#fbbf24"
+    else:
+        color = "#f87171"
+    total_mistakes = pm["blunder"] + pm["mistake"] + pm["inaccuracy"]
+    html += f"""
+            <div class="phase-card">
+                <div class="phase-name">{label}</div>
+                <div class="phase-accuracy" style="color:{color}">{acc}%</div>
+                <div class="phase-detail">{ps['moves']} moves &middot; {ps['avg_loss']} avg loss</div>
+                <div class="phase-detail">{pm['blunder']}B / {pm['mistake']}M / {pm['inaccuracy']}I</div>
+            </div>"""
+
+html += """
+        </div>
+        <div class="chart-container"><canvas id="phaseChart"></canvas></div>
+    </div>
+</div>
+
 <div class="grid">
     <div class="card">
         <h2>Results</h2>
         <div class="chart-container"><canvas id="resultsChart"></canvas></div>
     </div>
     <div class="card">
-        <h2>Mistakes Per Game</h2>
+        <h2>Your Mistakes Per Game</h2>
         <div class="chart-container"><canvas id="mistakesChart"></canvas></div>
     </div>
 </div>
@@ -330,18 +453,19 @@ html += """
 
 <div class="grid full">
     <div class="card">
-        <h2>Worst Moves</h2>
+        <h2>Your Worst Moves</h2>
         <table>
-            <thead><tr><th>Game</th><th>Move #</th><th>Player</th><th>Move</th><th>Type</th><th>Eval Drop</th></tr></thead>
+            <thead><tr><th>Game</th><th>Move #</th><th>Move</th><th>Phase</th><th>Type</th><th>Eval Drop</th></tr></thead>
             <tbody>
 """
 
-for game_file, move_num, player, move, classification, drop in worst_moves:
+for game_file, move_num, player, move, classification, drop, phase in worst_moves:
+    phase_label = phase.capitalize() if phase else "?"
     html += f"""<tr>
         <td>{game_file}</td>
         <td>{move_num}</td>
-        <td>{'&#9817;' if player == 'white' else '&#9823;'} {player}</td>
         <td style="font-family:monospace;font-weight:600">{move}</td>
+        <td>{phase_label}</td>
         <td><span class="badge {classification}">{classification}</span></td>
         <td style="color:#f87171;font-weight:600">-{drop:.1f}</td>
     </tr>"""
@@ -356,13 +480,20 @@ html += """
     <div class="card">
         <h2>All Games</h2>
         <table>
-            <thead><tr><th>#</th><th>Date</th><th>Color</th><th>Rating</th><th>Opp. Rating</th><th>Result</th><th>Opening</th><th>Blunders</th><th>Mistakes</th><th>Moves</th></tr></thead>
+            <thead><tr><th>#</th><th>Date</th><th>Color</th><th>Rating</th><th>Opp.</th><th>Result</th><th>Accuracy</th><th>Opening</th><th>Blunders</th><th>Mistakes</th><th>Moves</th></tr></thead>
             <tbody>
 """
 
 for i, g in enumerate(games_data, 1):
     result_badge = f'<span class="badge {g["result"]}">{g["result"]}</span>'
     opening_short = g["opening"][:30] + "..." if len(g["opening"]) > 30 else g["opening"]
+    acc = g["accuracy"]
+    if acc >= 70:
+        acc_color = "#4ade80"
+    elif acc >= 50:
+        acc_color = "#fbbf24"
+    else:
+        acc_color = "#f87171"
     html += f"""<tr>
         <td>{i}</td>
         <td>{g['date'].replace('.', '/')}</td>
@@ -370,6 +501,7 @@ for i, g in enumerate(games_data, 1):
         <td>{g['rating']}</td>
         <td>{g['opponent_rating']}</td>
         <td>{result_badge}</td>
+        <td style="color:{acc_color};font-weight:600">{acc}%</td>
         <td>{opening_short}</td>
         <td style="color:#f87171">{g['blunders'] or '-'}</td>
         <td style="color:#fbbf24">{g['mistakes'] or '-'}</td>
@@ -383,10 +515,6 @@ html += """
 </div>
 
 <script>
-const chartDefaults = {
-    color: '#888',
-    borderColor: '#2a2a2a',
-};
 Chart.defaults.color = '#888';
 Chart.defaults.borderColor = '#2a2a2a';
 """
@@ -435,6 +563,73 @@ new Chart(document.getElementById('ratingChart'), {{
 }});
 """
 
+# Accuracy over time chart
+accuracy_values = json.dumps([g["accuracy"] for g in games_data])
+accuracy_colors = json.dumps(["#4ade80" if g["accuracy"] >= 70 else "#fbbf24" if g["accuracy"] >= 50 else "#f87171" for g in games_data])
+
+html += f"""
+new Chart(document.getElementById('accuracyChart'), {{
+    type: 'line',
+    data: {{
+        labels: {labels_rating},
+        datasets: [{{
+            label: 'Accuracy %',
+            data: {accuracy_values},
+            borderColor: '#a78bfa',
+            backgroundColor: 'rgba(167,139,250,0.1)',
+            fill: true,
+            tension: 0.3,
+            pointBackgroundColor: {accuracy_colors},
+            pointRadius: 5,
+            pointHoverRadius: 7,
+        }}]
+    }},
+    options: {{
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {{
+            legend: {{ display: false }},
+            tooltip: {{
+                callbacks: {{
+                    afterLabel: function(ctx) {{
+                        const results = {json.dumps([g["result"] for g in games_data])};
+                        return results[ctx.dataIndex] + ' — ' + ctx.raw + '% accuracy';
+                    }}
+                }}
+            }}
+        }},
+        scales: {{
+            x: {{ display: false }},
+            y: {{ min: 0, max: 100, grid: {{ color: '#1f1f1f' }} }}
+        }}
+    }}
+}});
+"""
+
+# Phase breakdown chart (stacked bar)
+html += f"""
+new Chart(document.getElementById('phaseChart'), {{
+    type: 'bar',
+    data: {{
+        labels: {phase_labels},
+        datasets: [
+            {{ label: 'Blunders', data: {phase_blunders}, backgroundColor: '#f87171' }},
+            {{ label: 'Mistakes', data: {phase_mistakes_data}, backgroundColor: '#fbbf24' }},
+            {{ label: 'Inaccuracies', data: {phase_inaccuracies}, backgroundColor: '#60a5fa' }},
+        ]
+    }},
+    options: {{
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {{ legend: {{ position: 'bottom' }} }},
+        scales: {{
+            x: {{ grid: {{ display: false }} }},
+            y: {{ stacked: true, grid: {{ color: '#1f1f1f' }} }}
+        }}
+    }}
+}});
+"""
+
 # Results pie chart
 html += f"""
 new Chart(document.getElementById('resultsChart'), {{
@@ -458,7 +653,7 @@ new Chart(document.getElementById('resultsChart'), {{
 }});
 """
 
-# Mistakes per game chart
+# Mistakes per game chart (user only)
 game_labels = json.dumps([f"G{i+1}" for i in range(len(games_data))])
 blunders_data = json.dumps([g["blunders"] for g in games_data])
 mistakes_data = json.dumps([g["mistakes"] for g in games_data])

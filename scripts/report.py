@@ -8,63 +8,58 @@ print("\n===== CHESS ANALYSIS REPORT =====\n")
 # Total analyzed moves
 cursor.execute("SELECT COUNT(*) FROM analysis")
 total_events = cursor.fetchone()[0]
-print(f"Total classified moves: {total_events}")
+print(f"Total moves analyzed: {total_events}")
 
-print("\n--- Mistakes by Player ---")
+cursor.execute("SELECT COUNT(*) FROM analysis WHERE is_user = 1")
+user_moves = cursor.fetchone()[0]
+print(f"Your moves: {user_moves}")
+
+# Accuracy
+cursor.execute("""
+    SELECT AVG(CASE WHEN eval_drop > 0 THEN eval_drop ELSE 0 END)
+    FROM analysis WHERE is_user = 1
+""")
+avg_loss = cursor.fetchone()[0] or 0
+accuracy = max(0, min(100, 100 - avg_loss * 20))
+print(f"Overall accuracy: {accuracy:.1f}%")
+print(f"Average centipawn loss: {avg_loss:.2f}")
+
+print("\n--- Your Mistakes by Classification ---")
 
 cursor.execute("""
-SELECT player, classification, COUNT(*)
-FROM analysis
-GROUP BY player, classification
-ORDER BY player
+    SELECT classification, COUNT(*)
+    FROM analysis
+    WHERE is_user = 1 AND classification != 'good'
+    GROUP BY classification
+    ORDER BY COUNT(*) DESC
 """)
+for classification, count in cursor.fetchall():
+    print(f"  {classification}: {count}")
 
-rows = cursor.fetchall()
-
-for player, classification, count in rows:
-    print(f"{player} {classification}: {count}")
-
-print("\n--- Worst Moves (Largest Eval Drops) ---")
+print("\n--- Your Accuracy by Phase ---")
 
 cursor.execute("""
-SELECT game_file, move_number, move, eval_drop
-FROM analysis
-ORDER BY eval_drop DESC
-LIMIT 5
+    SELECT phase, AVG(CASE WHEN eval_drop > 0 THEN eval_drop ELSE 0 END), COUNT(*)
+    FROM analysis
+    WHERE is_user = 1
+    GROUP BY phase
+    ORDER BY CASE phase WHEN 'opening' THEN 1 WHEN 'middlegame' THEN 2 ELSE 3 END
 """)
+for phase, avg_loss, count in cursor.fetchall():
+    acc = max(0, min(100, 100 - (avg_loss or 0) * 20))
+    print(f"  {phase:12s}: {acc:.1f}% accuracy ({count} moves, {avg_loss:.2f} avg loss)")
 
-worst_moves = cursor.fetchall()
-
-for game, move_num, move, drop in worst_moves:
-    print(f"{game} Move {move_num}: {move} ({drop:.2f})")
-
-print("\n--- Average Evaluation Drop ---")
+print("\n--- Your Worst Moves ---")
 
 cursor.execute("""
-SELECT AVG(eval_drop) FROM analysis
+    SELECT game_file, move_number, move, eval_drop, phase
+    FROM analysis
+    WHERE is_user = 1 AND classification != 'good'
+    ORDER BY eval_drop DESC
+    LIMIT 5
 """)
-
-avg_drop = cursor.fetchone()[0]
-
-if avg_drop:
-    print(f"Average evaluation loss per mistake: {avg_drop:.2f}")
-
-print("\n--- Most Common Blunder Move ---")
-
-cursor.execute("""
-SELECT move, COUNT(*)
-FROM analysis
-WHERE classification='blunder'
-GROUP BY move
-ORDER BY COUNT(*) DESC
-LIMIT 1
-""")
-
-result = cursor.fetchone()
-
-if result:
-    move, count = result
-    print(f"{move} occurred {count} times")
+for game, move_num, move, drop, phase in cursor.fetchall():
+    print(f"  {game} Move {move_num}: {move} (-{drop:.2f}) [{phase}]")
 
 print("\n===== END REPORT =====\n")
 

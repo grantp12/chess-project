@@ -4,6 +4,7 @@ import chess
 import chess.pgn
 from stockfish import Stockfish
 
+USERNAME = "Tonymontana013"
 BASE_DIR = "games"
 STOCKFISH_PATH = "/opt/homebrew/bin/stockfish"
 MATE_SCORE = 100  # treat mate as +/- 100 pawns
@@ -22,6 +23,15 @@ stockfish.update_engine_parameters({
     "Hash": 256
 })
 
+def get_phase(move_number):
+    """Classify move into game phase."""
+    if move_number <= 15:
+        return "opening"
+    elif move_number <= 30:
+        return "middlegame"
+    else:
+        return "endgame"
+
 for filename in sorted(os.listdir(BASE_DIR), key=lambda f: int(f.replace("game_", "").replace(".pgn", ""))):
     if not filename.endswith(".pgn"):
         continue
@@ -35,6 +45,10 @@ for filename in sorted(os.listdir(BASE_DIR), key=lambda f: int(f.replace("game_"
         continue
 
     print(f"Analyzing {filename}")
+
+    # Determine which color the user is playing
+    headers = game.headers
+    user_is_white = headers.get("White", "") == USERNAME
 
     board = game.board()
     previous_eval = None
@@ -64,33 +78,34 @@ for filename in sorted(os.listdir(BASE_DIR), key=lambda f: int(f.replace("game_"
             move_number += 1
             continue
 
+        player = "white" if is_white_move else "black"
+        is_user = 1 if (is_white_move == user_is_white) else 0
+        phase = get_phase(move_number)
+
         if previous_eval is not None:
             # Eval drop from the moving player's perspective
-            # If white moved: a drop means eval went down (bad for white)
-            # If black moved: a drop means eval went up (bad for black)
             if is_white_move:
                 drop = previous_eval - current_eval
             else:
                 drop = current_eval - previous_eval
 
             classification = None
-
             if drop > 2:
                 classification = "blunder"
             elif drop > 1:
                 classification = "mistake"
             elif drop > 0.5:
                 classification = "inaccuracy"
+            else:
+                classification = "good"
 
-            if classification:
-                player = "white" if is_white_move else "black"
-
+            if classification != "good":
                 print(f"  Move {move_number}: {move} {classification} ({drop:.2f}) by {player}")
 
-                cursor.execute("""
-                    INSERT INTO analysis (game_file, move_number, player, move, classification, eval_drop)
-                    VALUES (?, ?, ?, ?, ?, ?)
-                """, (filename, move_number, player, str(move), classification, drop))
+            cursor.execute("""
+                INSERT INTO analysis (game_file, move_number, player, is_user, move, classification, eval_drop, eval_before, eval_after, phase)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, (filename, move_number, player, is_user, str(move), classification, drop, previous_eval, current_eval, phase))
 
         previous_eval = current_eval
         move_number += 1
