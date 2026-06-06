@@ -1,0 +1,1755 @@
+Analyzing game_1.pgn
+  Move 3: Nxe5 mistake (-25% win) by white
+  Move 6: Bb7 inaccuracy (-11% win) by black
+  Move 7: Bf3 inaccuracy (-17% win) by white
+  Move 9: Bxd5 inaccuracy (-11% win) by white
+  Move 21: g6 inaccuracy (-12% win) by black
+  Move 59: Rg7 blunder (-50% win) by black
+Analyzing game_2.pgn
+  Move 5: Nxe4 blunder (-38% win) by black
+  Move 6: Nxf7 blunder (-55% win) by white
+  Move 6: d5 blunder (-54% win) by black
+Analyzing game_3.pgn
+  Move 7: a6 inaccuracy (-13% win) by black
+  Move 9: Bxf6 inaccuracy (-11% win) by white
+  Move 11: b4 mistake (-21% win) by black
+  Move 12: Nxb4 blunder (-52% win) by white
+  Move 15: h3 inaccuracy (-12% win) by white
+  Move 19: d4 mistake (-29% win) by white
+  Move 19: c6 blunder (-35% win) by black
+  Move 20: dxc5 blunder (-35% win) by white
+  Move 20: cxd5 mistake (-22% win) by black
+  Move 21: exd5 mistake (-22% win) by white
+Analyzing game_4.pgn
+  Move 3: Qg5 inaccuracy (-20% win) by black
+  Move 5: Nf3 inaccuracy (-16% win) by white
+  Move 6: Rf1 inaccuracy (-14% win) by white
+  Move 6: Nh6 inaccuracy (-15% win) by black
+  Move 7: Qd5 inaccuracy (-14% win) by white
+  Move 7: Bxf2+ blunder (-47% win) by black
+Analyzing game_5.pgn
+  Move 2: Qh4 inaccuracy (-17% win) by black
+  Move 5: g5 mistake (-25% win) by black
+  Move 9: d3 blunder (-74% win) by white
+Analyzing game_6.pgn
+  Move 3: g4 inaccuracy (-17% win) by white
+Analyzing game_7.pgn
+  Move 2: f5 inaccuracy (-18% win) by white
+  Move 6: d4 inaccuracy (-11% win) by white
+Analyzing game_8.pgn
+  Move 5: Bg2 inaccuracy (-15% win) by white
+  Move 6: d4 inaccuracy (-16% win) by black
+  Move 10: Rg6 mistake (-26% win) by black
+Analyzing game_9.pgn
+  Move 8: h5 inaccuracy (-19% win) by black
+  Move 10: Bf4 inaccuracy (-10% win) by white
+  Move 10: d6 inaccuracy (-11% win) by black
+  Move 11: Qe8 blunder (-35% win) by black
+Analyzing game_10.pgn
+  Move 5: Qxe5+ mistake (-24% win) by white
+Analyzing game_11.pgn
+  Move 1: g5 inaccuracy (-13% win) by black
+  Move 3: Bxg5 inaccuracy (-15% win) by white
+  Move 4: f4 inaccuracy (-12% win) by white
+  Move 4: f6 blunder (-56% win) by black
+  Move 5: Bh4 blunder (-37% win) by white
+  Move 5: e6 inaccuracy (-11% win) by black
+  Move 6: Qe2 inaccuracy (-11% win) by white
+  Move 6: Bb4+ inaccuracy (-19% win) by black
+  Move 7: Nc3 mistake (-21% win) by white
+  Move 8: Qc4 blunder (-38% win) by white
+  Move 8: c5 mistake (-29% win) by black
+  Move 9: dxc5 mistake (-26% win) by white
+  Move 9: a5 blunder (-35% win) by black
+  Move 11: axb4 inaccuracy (-16% win) by black
+  Move 16: Nd2 blunder (-56% win) by white
+  Move 16: Nxd2 blunder (-51% win) by black
+  Move 17: Qd4 blunder (-75% win) by white
+  Move 17: Rg8 blunder (-53% win) by black
+  Move 18: Qxf6 blunder (-52% win) by white
+  Move 18: Nb1+ blunder (-76% win) by black
+  Move 19: Kf1 mistake (-22% win) by white
+  Move 19: Qa1 blunder (-38% win) by black
+Analyzing game_12.pgn
+  Move 12: Nd5 inaccuracy (-11% win) by black
+  Move 13: e4 inaccuracy (-13% win) by white
+  Move 15: Bg4 inaccuracy (-14% win) by black
+  Move 16: c5 inaccuracy (-17% win) by black
+  Move 17: Be2 inaccuracy (-19% win) by white
+  Move 19: Rd2 inaccuracy (-11% win) by white
+  Move 19: Rd3 blunder (-39% win) by black
+  Move 32: g5 mistake (-23% win) by white
+  Move 33: Rf5 inaccuracy (-14% win) by black
+Analyzing game_13.pgn
+  Move 9: e5 blunder (-38% win) by black
+  Move 10: dxe5 blunder (-35% win) by white
+  Move 10: Bxe5 blunder (-34% win) by black
+  Move 20: Rb1 inaccuracy (-10% win) by white
+Analyzing game_14.pgn
+  Move 5: Bxc3+ mistake (-20% win) by black
+  Move 7: Bd3 inaccuracy (-11% win) by white
+  Move 8: Nb5 mistake (-24% win) by black
+Analyzing game_15.pgn
+  Move 10: Ng4 blunder (-41% win) by black
+Analyzing game_16.pgn
+  Move 2: Qf6 inaccuracy (-13% win) by black
+  Move 5: Ng1 inaccuracy (-16% win) by white
+  Move 6: b6 inaccuracy (-13% win) by black
+  Move 7: Ba6 inaccuracy (-10% win) by black
+  Move 13: Qe3 blunder (-64% win) by white
+  Move 23: e4 inaccuracy (-10% win) by black
+  Move 25: e3 blunder (-48% win) by black
+  Move 26: Rde1 blunder (-33% win) by white
+  Move 26: Qc6 inaccuracy (-11% win) by black
+  Move 27: Re2 mistake (-29% win) by white
+  Move 28: Kf3 inaccuracy (-11% win) by white
+  Move 28: Qf6+ blunder (-39% win) by black
+  Move 29: Kg4 mistake (-29% win) by white
+  Move 30: Nd7 blunder (-30% win) by black
+  Move 32: Ke2 inaccuracy (-11% win) by white
+  Move 33: Bf3 inaccuracy (-19% win) by white
+  Move 44: Ke5 inaccuracy (-15% win) by black
+  Move 46: c4 blunder (-70% win) by black
+  Move 53: g4 blunder (-36% win) by white
+  Move 54: Nf3 blunder (-44% win) by black
+  Move 55: g6 blunder (-79% win) by white
+  Move 55: Ne5 blunder (-75% win) by black
+Analyzing game_17.pgn
+  Move 6: Be7 inaccuracy (-11% win) by black
+  Move 9: e5 mistake (-25% win) by black
+  Move 11: e6 mistake (-29% win) by white
+  Move 13: Qd1 inaccuracy (-10% win) by white
+  Move 16: Bc5 inaccuracy (-13% win) by black
+  Move 18: e5 mistake (-30% win) by white
+  Move 19: Kh1 inaccuracy (-13% win) by white
+  Move 20: g6 inaccuracy (-11% win) by black
+  Move 21: Rg1 inaccuracy (-13% win) by white
+  Move 22: Qe1 inaccuracy (-14% win) by white
+  Move 22: Bf1 inaccuracy (-17% win) by black
+  Move 23: Qxf1 blunder (-31% win) by white
+Analyzing game_18.pgn
+  Move 5: Qxf6 blunder (-34% win) by white
+Analyzing game_19.pgn
+  Move 6: Bb4 inaccuracy (-17% win) by black
+  Move 7: d3 blunder (-55% win) by white
+  Move 10: Be6 inaccuracy (-19% win) by black
+  Move 11: Qb5+ inaccuracy (-18% win) by white
+  Move 12: Qxg2 blunder (-58% win) by black
+  Move 13: Nd8 mistake (-23% win) by black
+Analyzing game_20.pgn
+  Move 7: Ng5 inaccuracy (-13% win) by white
+  Move 8: Ne6 blunder (-38% win) by white
+Analyzing game_21.pgn
+  Move 4: c5 inaccuracy (-12% win) by black
+  Move 5: O-O inaccuracy (-14% win) by white
+  Move 12: Qb3 inaccuracy (-14% win) by white
+  Move 12: Rd7 inaccuracy (-17% win) by black
+  Move 13: Rfe1 inaccuracy (-16% win) by white
+  Move 13: Na5 inaccuracy (-17% win) by black
+  Move 15: Qxc4 inaccuracy (-12% win) by white
+  Move 18: b4 mistake (-24% win) by white
+  Move 18: cxb4 mistake (-25% win) by black
+  Move 19: Qxb4 mistake (-20% win) by white
+  Move 19: Qxd3 inaccuracy (-17% win) by black
+  Move 21: Qxd6 inaccuracy (-17% win) by white
+  Move 21: Qe6 mistake (-27% win) by black
+  Move 22: Qd5 inaccuracy (-15% win) by white
+  Move 23: Re6 inaccuracy (-10% win) by black
+  Move 24: Qd8 inaccuracy (-11% win) by white
+  Move 24: f5 inaccuracy (-14% win) by black
+  Move 28: Qxa7 blunder (-48% win) by white
+  Move 30: Qd5 inaccuracy (-10% win) by black
+Analyzing game_22.pgn
+Analyzing game_23.pgn
+  Move 3: e5 inaccuracy (-11% win) by black
+  Move 4: d4 inaccuracy (-13% win) by white
+  Move 5: Bc5 blunder (-35% win) by black
+Analyzing game_24.pgn
+Analyzing game_25.pgn
+  Move 2: Nc3 inaccuracy (-12% win) by white
+  Move 3: Nf3 inaccuracy (-14% win) by white
+  Move 3: g6 inaccuracy (-17% win) by black
+  Move 5: Bg4 mistake (-24% win) by black
+  Move 6: Bc4 mistake (-24% win) by white
+  Move 6: Bg7 mistake (-25% win) by black
+  Move 8: O-O inaccuracy (-18% win) by white
+  Move 8: Nc6 inaccuracy (-14% win) by black
+  Move 9: Bf4 inaccuracy (-19% win) by white
+  Move 9: Nxe4 blunder (-31% win) by black
+Analyzing game_26.pgn
+Analyzing game_27.pgn
+  Move 10: b5 mistake (-25% win) by black
+  Move 13: Qc2 blunder (-35% win) by white
+  Move 14: Bxd2 blunder (-46% win) by black
+  Move 19: Qg5 blunder (-60% win) by white
+  Move 37: Qf2 blunder (-73% win) by black
+  Move 38: Rxa5 blunder (-73% win) by white
+Analyzing game_28.pgn
+  Move 6: c3 blunder (-33% win) by white
+  Move 8: Na3 inaccuracy (-13% win) by white
+  Move 13: Nxd4 inaccuracy (-14% win) by black
+  Move 14: cxd4 mistake (-22% win) by white
+Analyzing game_29.pgn
+  Move 5: Qf3 blunder (-38% win) by white
+  Move 5: Bc5 mistake (-26% win) by black
+  Move 6: d6 inaccuracy (-18% win) by white
+  Move 7: dxc7 inaccuracy (-14% win) by white
+  Move 15: Rg1 inaccuracy (-13% win) by white
+  Move 17: Rfc8 inaccuracy (-16% win) by black
+  Move 21: Rc1+ blunder (-53% win) by black
+Analyzing game_30.pgn
+  Move 8: Re1 blunder (-40% win) by white
+  Move 19: Qh4 inaccuracy (-10% win) by black
+  Move 20: Qf4 inaccuracy (-16% win) by white
+  Move 21: Rad8 blunder (-34% win) by black
+  Move 22: Rad1 blunder (-35% win) by white
+  Move 23: Bxe5 blunder (-64% win) by black
+Analyzing game_31.pgn
+  Move 8: Qe7 inaccuracy (-19% win) by black
+  Move 9: O-O inaccuracy (-19% win) by white
+  Move 9: Nxe4 blunder (-31% win) by black
+  Move 11: Qh5 blunder (-33% win) by white
+Analyzing game_32.pgn
+  Move 7: e5 inaccuracy (-16% win) by black
+  Move 8: O-O mistake (-20% win) by black
+  Move 9: e6 blunder (-35% win) by white
+  Move 18: Bc4 blunder (-32% win) by white
+  Move 20: Nf5 inaccuracy (-16% win) by white
+  Move 23: Rad1 inaccuracy (-10% win) by white
+Analyzing game_33.pgn
+  Move 12: Bd4 mistake (-22% win) by black
+  Move 17: b4 inaccuracy (-16% win) by white
+  Move 17: Rb8 inaccuracy (-12% win) by black
+  Move 27: Ra2 blunder (-56% win) by white
+  Move 27: Rc6 blunder (-55% win) by black
+  Move 30: Nd1 inaccuracy (-14% win) by white
+  Move 30: Rc4 inaccuracy (-18% win) by black
+  Move 31: b5 inaccuracy (-12% win) by white
+  Move 33: Rf3 inaccuracy (-14% win) by white
+  Move 33: Bc4 inaccuracy (-10% win) by black
+  Move 35: Rxf7 blunder (-54% win) by white
+  Move 39: Rb2 inaccuracy (-11% win) by black
+  Move 40: Ne8 inaccuracy (-11% win) by white
+  Move 40: Kh8 inaccuracy (-13% win) by black
+  Move 41: Rxg7 inaccuracy (-19% win) by white
+  Move 42: f5 inaccuracy (-18% win) by white
+Analyzing game_34.pgn
+  Move 5: d4 inaccuracy (-15% win) by white
+  Move 7: Qc3 inaccuracy (-12% win) by white
+  Move 7: d6 inaccuracy (-12% win) by black
+  Move 10: Qb5+ mistake (-20% win) by white
+Analyzing game_35.pgn
+  Move 5: Bd6 inaccuracy (-12% win) by black
+  Move 7: Bd6 inaccuracy (-11% win) by black
+  Move 8: e5 mistake (-25% win) by white
+  Move 8: Qg6 blunder (-44% win) by black
+  Move 25: Rxh2 inaccuracy (-16% win) by white
+  Move 25: Qxc7 inaccuracy (-18% win) by black
+Analyzing game_36.pgn
+  Move 6: d3 inaccuracy (-11% win) by white
+  Move 11: a6 inaccuracy (-11% win) by black
+  Move 17: d4 inaccuracy (-15% win) by white
+  Move 20: cxb4 blunder (-41% win) by black
+  Move 26: Qf4 mistake (-30% win) by white
+  Move 27: Qxf5 inaccuracy (-14% win) by white
+  Move 36: b1=Q inaccuracy (-13% win) by black
+  Move 37: Ra1 blunder (-71% win) by black
+Analyzing game_37.pgn
+  Move 8: g5 inaccuracy (-13% win) by black
+  Move 10: Bd2 blunder (-38% win) by white
+  Move 11: b4 blunder (-56% win) by black
+  Move 12: Bd2 blunder (-57% win) by white
+  Move 13: Bb7 inaccuracy (-11% win) by black
+  Move 16: dxc5 blunder (-40% win) by black
+  Move 17: Qd7 inaccuracy (-12% win) by black
+Analyzing game_38.pgn
+  Move 2: Nc3 inaccuracy (-12% win) by white
+  Move 4: Qd6 inaccuracy (-10% win) by black
+  Move 7: Ng4 mistake (-25% win) by black
+Analyzing game_39.pgn
+  Move 5: Qe7 inaccuracy (-15% win) by black
+  Move 8: Nxd4 blunder (-45% win) by white
+  Move 12: Bxc3+ inaccuracy (-15% win) by black
+  Move 15: Nxd4 inaccuracy (-14% win) by black
+  Move 16: Rxh1 inaccuracy (-14% win) by white
+  Move 44: Re2 blunder (-50% win) by black
+Analyzing game_40.pgn
+  Move 5: Bxe5 inaccuracy (-10% win) by white
+  Move 5: f5 blunder (-35% win) by black
+Analyzing game_41.pgn
+  Move 4: d4 inaccuracy (-12% win) by white
+  Move 5: Qf6 blunder (-36% win) by black
+Analyzing game_42.pgn
+  Move 4: Ne7 inaccuracy (-12% win) by black
+  Move 8: Nf4 blunder (-30% win) by black
+Analyzing game_43.pgn
+  Move 6: c6 inaccuracy (-15% win) by black
+  Move 40: Kg2 inaccuracy (-17% win) by white
+  Move 43: f3 mistake (-29% win) by white
+  Move 44: Ke5 inaccuracy (-13% win) by black
+  Move 45: a4 inaccuracy (-18% win) by white
+  Move 45: Re2+ inaccuracy (-18% win) by black
+  Move 46: Kf1 mistake (-24% win) by white
+  Move 47: Ra1+ blunder (-34% win) by black
+  Move 48: Ke2 mistake (-21% win) by white
+Analyzing game_44.pgn
+  Move 4: d6 inaccuracy (-13% win) by black
+  Move 6: h6 inaccuracy (-12% win) by black
+  Move 7: Nf3 inaccuracy (-16% win) by white
+  Move 10: g4 inaccuracy (-16% win) by black
+  Move 11: Nd2 inaccuracy (-15% win) by white
+  Move 12: Rg8 inaccuracy (-16% win) by black
+  Move 13: Rg5 inaccuracy (-17% win) by black
+  Move 37: Rxa8 blunder (-41% win) by white
+  Move 37: Kg3 blunder (-47% win) by black
+Analyzing game_45.pgn
+  Move 3: Nd3 inaccuracy (-15% win) by white
+Analyzing game_46.pgn
+  Move 4: d6 inaccuracy (-11% win) by black
+  Move 8: Nxd1 inaccuracy (-13% win) by white
+  Move 11: Nc6 inaccuracy (-11% win) by black
+  Move 13: Kd2 inaccuracy (-14% win) by white
+  Move 14: Bd5 inaccuracy (-14% win) by white
+  Move 16: Kc3 inaccuracy (-12% win) by white
+  Move 19: Nxa4 inaccuracy (-15% win) by black
+  Move 22: Rhf8 inaccuracy (-17% win) by black
+  Move 23: f3 inaccuracy (-19% win) by white
+  Move 23: Rb6 blunder (-33% win) by black
+  Move 26: a6 mistake (-27% win) by black
+Analyzing game_47.pgn
+  Move 4: Qe7 inaccuracy (-11% win) by black
+  Move 5: Ng4 inaccuracy (-11% win) by black
+  Move 9: Nxc6 mistake (-20% win) by white
+  Move 10: Bxh6 inaccuracy (-14% win) by white
+  Move 11: Be7 inaccuracy (-12% win) by black
+  Move 14: d6 inaccuracy (-11% win) by black
+  Move 20: d4 inaccuracy (-17% win) by black
+  Move 25: g3 mistake (-27% win) by white
+  Move 26: c3 blunder (-34% win) by white
+  Move 32: c4 mistake (-25% win) by black
+  Move 33: d6 mistake (-28% win) by white
+  Move 36: Kc7 blunder (-81% win) by black
+Analyzing game_48.pgn
+  Move 8: gxf6 mistake (-26% win) by black
+  Move 14: Bb3 inaccuracy (-10% win) by white
+  Move 19: Qh3 blunder (-65% win) by white
+  Move 19: bxc3 blunder (-86% win) by black
+  Move 21: Rxf6 inaccuracy (-11% win) by white
+  Move 22: Qxb2 inaccuracy (-12% win) by black
+Analyzing game_49.pgn
+  Move 5: Nh3 mistake (-20% win) by white
+  Move 5: Bd6 inaccuracy (-18% win) by black
+  Move 8: Ng4 inaccuracy (-11% win) by black
+  Move 9: f4 inaccuracy (-16% win) by white
+  Move 10: Nxc2+ blunder (-52% win) by black
+  Move 12: Bb2 inaccuracy (-15% win) by white
+  Move 12: exf4 mistake (-24% win) by black
+Analyzing game_50.pgn
+  Move 6: Qe8 mistake (-27% win) by black
+  Move 10: Bb6 inaccuracy (-10% win) by black
+  Move 13: Nb8 inaccuracy (-10% win) by black
+  Move 19: Qxh2 inaccuracy (-11% win) by black
+  Move 20: dxe5 inaccuracy (-12% win) by white
+  Move 22: Bb5 inaccuracy (-20% win) by white
+  Move 24: Nxg5 blunder (-37% win) by white
+  Move 26: f3 mistake (-24% win) by white
+  Move 26: Rc4 inaccuracy (-15% win) by black
+  Move 27: Qa4+ inaccuracy (-16% win) by black
+  Move 29: Kd3 mistake (-28% win) by white
+  Move 30: Bxb1 inaccuracy (-16% win) by black
+  Move 31: Qxb1 inaccuracy (-11% win) by white
+  Move 31: Qxa8 inaccuracy (-14% win) by black
+  Move 32: Qe4 inaccuracy (-12% win) by white
+  Move 32: Rxc3+ inaccuracy (-10% win) by black
+  Move 34: Qa6 blunder (-36% win) by black
+  Move 37: Qa4+ inaccuracy (-13% win) by black
+  Move 38: Qh4+ inaccuracy (-11% win) by black
+  Move 40: Rh1 inaccuracy (-20% win) by white
+  Move 40: gxf3+ inaccuracy (-12% win) by black
+  Move 42: Kf1 mistake (-28% win) by white
+  Move 42: Nc6 blunder (-32% win) by black
+  Move 43: d7 blunder (-32% win) by white
+  Move 44: Nd4 blunder (-44% win) by black
+Analyzing game_51.pgn
+  Move 2: Qf6 inaccuracy (-10% win) by black
+  Move 6: Nd4 inaccuracy (-19% win) by black
+  Move 7: Nd5 inaccuracy (-10% win) by white
+  Move 7: Qd8 inaccuracy (-15% win) by black
+  Move 8: b3 mistake (-26% win) by white
+  Move 9: f6 mistake (-23% win) by black
+  Move 11: Qg6 blunder (-32% win) by white
+  Move 12: Ne3 blunder (-36% win) by white
+  Move 13: Bxd5 inaccuracy (-11% win) by white
+  Move 17: Ne7 inaccuracy (-15% win) by black
+  Move 18: exf4 blunder (-48% win) by black
+  Move 20: Bxe7+ blunder (-44% win) by white
+  Move 21: Qc5+ blunder (-39% win) by black
+  Move 22: Rg8 inaccuracy (-14% win) by black
+Analyzing game_52.pgn
+  Move 4: d4 inaccuracy (-12% win) by white
+  Move 4: Bb4 inaccuracy (-19% win) by black
+  Move 10: d6 inaccuracy (-15% win) by black
+Analyzing game_53.pgn
+  Move 4: d5 inaccuracy (-12% win) by black
+  Move 5: Bb5 inaccuracy (-17% win) by white
+  Move 8: Nxd4 mistake (-26% win) by black
+  Move 9: Bxd7+ blunder (-33% win) by white
+  Move 9: Kd8 blunder (-40% win) by black
+Analyzing game_54.pgn
+  Move 3: g4 inaccuracy (-13% win) by white
+  Move 4: b3 inaccuracy (-17% win) by white
+  Move 11: e4 inaccuracy (-10% win) by black
+  Move 12: e3 inaccuracy (-19% win) by white
+  Move 15: Rb1 inaccuracy (-17% win) by white
+  Move 16: O-O inaccuracy (-16% win) by white
+Analyzing game_55.pgn
+  Move 4: Nb4 mistake (-20% win) by black
+  Move 5: d6 inaccuracy (-11% win) by black
+Analyzing game_56.pgn
+  Move 30: h6 blunder (-55% win) by white
+Analyzing game_57.pgn
+  Move 4: d6 inaccuracy (-11% win) by black
+  Move 17: Rhg8 inaccuracy (-17% win) by black
+  Move 18: g3 blunder (-35% win) by white
+  Move 19: Nf3+ blunder (-54% win) by black
+Analyzing game_58.pgn
+  Move 2: Qh5 inaccuracy (-10% win) by white
+  Move 5: Qf3 inaccuracy (-13% win) by white
+  Move 10: Bf5 blunder (-44% win) by black
+  Move 15: a3 inaccuracy (-13% win) by white
+  Move 18: Kf3 blunder (-52% win) by white
+  Move 18: f5 mistake (-24% win) by black
+  Move 19: Ra2 mistake (-25% win) by white
+Analyzing game_59.pgn
+  Move 2: d5 inaccuracy (-12% win) by black
+  Move 12: Nd4 mistake (-23% win) by black
+Analyzing game_60.pgn
+  Move 4: Bg4 mistake (-24% win) by black
+  Move 5: Nc3 mistake (-23% win) by white
+  Move 9: Qh4 inaccuracy (-14% win) by black
+  Move 11: f4 inaccuracy (-11% win) by white
+  Move 12: a3 blunder (-47% win) by white
+  Move 12: Na6 blunder (-39% win) by black
+  Move 13: Bxc6 inaccuracy (-14% win) by white
+  Move 14: Qf3 blunder (-50% win) by white
+Analyzing game_61.pgn
+  Move 8: h5 inaccuracy (-13% win) by black
+  Move 11: Qf7+ blunder (-54% win) by white
+  Move 15: Ne6 inaccuracy (-15% win) by black
+Analyzing game_62.pgn
+  Move 8: Nd5 inaccuracy (-11% win) by black
+  Move 9: Qd2 inaccuracy (-19% win) by white
+  Move 9: Rb8 inaccuracy (-10% win) by black
+  Move 10: Bb4 inaccuracy (-11% win) by black
+  Move 13: O-O inaccuracy (-12% win) by black
+  Move 15: Qe3 blunder (-51% win) by white
+  Move 15: axb4 blunder (-45% win) by black
+  Move 16: Rf4 mistake (-26% win) by black
+Analyzing game_63.pgn
+  Move 6: b6 inaccuracy (-15% win) by black
+  Move 19: d4 inaccuracy (-13% win) by white
+  Move 19: Rd5 inaccuracy (-11% win) by black
+  Move 20: Re3 inaccuracy (-12% win) by white
+  Move 23: Bxc2 mistake (-26% win) by black
+  Move 29: b5 inaccuracy (-16% win) by black
+Analyzing game_64.pgn
+  Move 5: Nf6 inaccuracy (-11% win) by black
+  Move 6: Re1 inaccuracy (-11% win) by white
+  Move 8: c5 inaccuracy (-14% win) by black
+  Move 9: Nd7 inaccuracy (-12% win) by black
+  Move 10: Bg5 blunder (-32% win) by white
+  Move 10: Qxg5 mistake (-22% win) by black
+  Move 14: Rd8 inaccuracy (-18% win) by black
+  Move 16: Rxd8+ inaccuracy (-19% win) by white
+  Move 17: Nce6+ mistake (-23% win) by white
+  Move 18: Ke8 mistake (-21% win) by black
+  Move 20: Nxd8 mistake (-25% win) by white
+  Move 31: Nb4 inaccuracy (-14% win) by black
+  Move 32: gxf6 inaccuracy (-13% win) by black
+  Move 33: gxf6+ inaccuracy (-18% win) by white
+  Move 34: Kf5 mistake (-27% win) by white
+Analyzing game_65.pgn
+  Move 4: Bc4 inaccuracy (-10% win) by white
+  Move 5: a3 inaccuracy (-13% win) by white
+  Move 6: d5 inaccuracy (-11% win) by black
+  Move 14: Re5 blunder (-31% win) by black
+  Move 20: Re8 inaccuracy (-14% win) by black
+Analyzing game_66.pgn
+  Move 6: Nc3 inaccuracy (-18% win) by white
+  Move 10: Nd4 inaccuracy (-18% win) by black
+  Move 11: Qe4 inaccuracy (-13% win) by white
+  Move 11: f6 inaccuracy (-11% win) by black
+  Move 12: Nc2 blunder (-34% win) by black
+  Move 13: Rad1 mistake (-29% win) by white
+  Move 14: Bc5 mistake (-27% win) by black
+  Move 15: Rfe1 mistake (-28% win) by white
+  Move 15: Bb4 blunder (-35% win) by black
+  Move 29: Nd6 blunder (-53% win) by white
+  Move 29: Rd4 blunder (-72% win) by black
+Analyzing game_67.pgn
+  Move 8: Qh6 blunder (-34% win) by white
+Analyzing game_68.pgn
+  Move 5: d4 inaccuracy (-15% win) by white
+  Move 6: Ng5 inaccuracy (-15% win) by white
+  Move 7: Ne6 inaccuracy (-11% win) by black
+  Move 8: Bg5 inaccuracy (-17% win) by white
+Analyzing game_69.pgn
+  Move 5: c5 inaccuracy (-15% win) by black
+  Move 6: b3 inaccuracy (-14% win) by white
+  Move 8: Nc6 inaccuracy (-18% win) by black
+  Move 9: Bxc5 inaccuracy (-20% win) by white
+  Move 11: Na4 inaccuracy (-11% win) by white
+  Move 18: Qxc3 mistake (-30% win) by black
+  Move 20: Rc1 inaccuracy (-13% win) by white
+  Move 21: Nf6 inaccuracy (-14% win) by black
+  Move 22: Qc7+ mistake (-21% win) by white
+  Move 22: Ke8 mistake (-21% win) by black
+  Move 23: Kb1 inaccuracy (-16% win) by white
+  Move 23: g6 blunder (-46% win) by black
+  Move 24: Rfd1 mistake (-22% win) by white
+  Move 24: Qxf2 blunder (-31% win) by black
+  Move 25: Qb7 blunder (-39% win) by white
+  Move 25: Rd8 inaccuracy (-16% win) by black
+  Move 27: Qxa7 mistake (-21% win) by white
+  Move 27: Kf8 blunder (-47% win) by black
+Analyzing game_70.pgn
+  Move 7: O-O mistake (-28% win) by white
+  Move 11: Qb4 blunder (-59% win) by black
+  Move 18: Bxd5 inaccuracy (-13% win) by white
+  Move 18: c6 mistake (-21% win) by black
+  Move 19: Bc4 blunder (-76% win) by white
+  Move 20: Be6 inaccuracy (-11% win) by black
+  Move 21: Rd8+ mistake (-20% win) by white
+Analyzing game_71.pgn
+Analyzing game_72.pgn
+  Move 5: Be3 inaccuracy (-17% win) by white
+  Move 7: bxc3 inaccuracy (-12% win) by white
+  Move 15: Nc6 blunder (-94% win) by black
+Analyzing game_73.pgn
+  Move 9: Qe3 blunder (-36% win) by white
+  Move 9: Nf6 blunder (-33% win) by black
+  Move 10: Bh4 blunder (-32% win) by white
+  Move 10: O-O blunder (-33% win) by black
+  Move 11: Nd5 blunder (-34% win) by white
+  Move 11: c6 mistake (-28% win) by black
+  Move 16: d4 mistake (-25% win) by white
+  Move 16: Qxa2 inaccuracy (-11% win) by black
+  Move 17: Bxb5 inaccuracy (-11% win) by white
+  Move 18: Qa1+ inaccuracy (-16% win) by black
+  Move 20: Kc1 inaccuracy (-10% win) by white
+  Move 20: Qa1+ inaccuracy (-10% win) by black
+  Move 22: Kc1 inaccuracy (-11% win) by white
+  Move 22: Qa1+ inaccuracy (-12% win) by black
+Analyzing game_74.pgn
+  Move 11: h6 inaccuracy (-17% win) by black
+  Move 14: Ne4 mistake (-30% win) by black
+  Move 20: Nf6+ mistake (-24% win) by white
+  Move 22: Qa4 inaccuracy (-11% win) by white
+  Move 23: Rh8 inaccuracy (-14% win) by black
+  Move 24: Qh1 blunder (-65% win) by white
+Analyzing game_75.pgn
+  Move 6: Qb4+ inaccuracy (-13% win) by black
+  Move 7: c3 blunder (-54% win) by white
+  Move 11: Qxc3 blunder (-71% win) by black
+  Move 13: Re1 blunder (-86% win) by white
+Analyzing game_76.pgn
+  Move 10: Nxe5 blunder (-43% win) by white
+Analyzing game_77.pgn
+  Move 4: Nxe5 inaccuracy (-16% win) by white
+  Move 5: Neg4 inaccuracy (-16% win) by black
+  Move 6: Nxf2 inaccuracy (-15% win) by black
+  Move 7: d6 inaccuracy (-13% win) by black
+  Move 15: Re8 mistake (-21% win) by black
+Analyzing game_78.pgn
+  Move 5: Qd2 inaccuracy (-20% win) by white
+  Move 10: Bg5 inaccuracy (-12% win) by white
+  Move 12: g3 inaccuracy (-11% win) by white
+  Move 13: Nxf2 inaccuracy (-11% win) by black
+Analyzing game_79.pgn
+  Move 11: a4 inaccuracy (-15% win) by white
+  Move 12: Nbd7 inaccuracy (-13% win) by black
+Analyzing game_80.pgn
+  Move 6: e5 inaccuracy (-17% win) by black
+  Move 8: c5 inaccuracy (-13% win) by black
+  Move 9: g6 inaccuracy (-19% win) by black
+  Move 13: Nc7 mistake (-23% win) by white
+  Move 14: Qxg2 mistake (-30% win) by black
+Analyzing game_81.pgn
+  Move 4: d5 inaccuracy (-15% win) by black
+  Move 5: Bxc6+ inaccuracy (-12% win) by white
+  Move 8: Nxc6 blunder (-32% win) by white
+  Move 13: Qxe4+ inaccuracy (-17% win) by white
+Analyzing game_82.pgn
+  Move 5: Bf5 inaccuracy (-16% win) by black
+  Move 6: Nf6 mistake (-29% win) by black
+Analyzing game_83.pgn
+  Move 7: e3 inaccuracy (-12% win) by white
+  Move 10: f4 inaccuracy (-14% win) by white
+  Move 12: a3 mistake (-23% win) by white
+  Move 14: Nc3 inaccuracy (-18% win) by white
+Analyzing game_84.pgn
+  Move 4: Nb4 inaccuracy (-15% win) by black
+  Move 6: Nxd5 inaccuracy (-14% win) by black
+Analyzing game_85.pgn
+Analyzing game_86.pgn
+  Move 7: Bf4 inaccuracy (-10% win) by white
+  Move 9: b3 inaccuracy (-10% win) by white
+  Move 12: h6 inaccuracy (-10% win) by black
+  Move 20: Bg4 inaccuracy (-13% win) by white
+  Move 23: Rc5 inaccuracy (-13% win) by black
+  Move 38: g5+ blunder (-69% win) by white
+  Move 38: Kg7 blunder (-71% win) by black
+  Move 46: Re7 inaccuracy (-14% win) by white
+  Move 46: Kf8 inaccuracy (-14% win) by black
+  Move 47: a5 mistake (-25% win) by black
+  Move 48: Rxa5 inaccuracy (-19% win) by white
+  Move 55: Rg8 blunder (-44% win) by white
+Analyzing game_87.pgn
+  Move 2: Nc3 inaccuracy (-11% win) by white
+  Move 6: Qd5 blunder (-49% win) by black
+Analyzing game_88.pgn
+  Move 9: Nb4 mistake (-25% win) by black
+  Move 11: Ng4 mistake (-24% win) by black
+  Move 15: Qxb4 blunder (-37% win) by white
+Analyzing game_89.pgn
+  Move 7: c6 mistake (-24% win) by black
+  Move 8: O-O mistake (-22% win) by white
+  Move 9: e5 inaccuracy (-13% win) by white
+  Move 11: Bxf7+ mistake (-22% win) by white
+  Move 17: Rd2 blunder (-70% win) by black
+  Move 22: exf6 inaccuracy (-11% win) by black
+  Move 36: Nh5+ inaccuracy (-15% win) by black
+  Move 40: Kh3 blunder (-82% win) by white
+  Move 40: Nxe1 blunder (-53% win) by black
+  Move 41: h6 mistake (-20% win) by black
+  Move 43: Bh4+ inaccuracy (-19% win) by white
+  Move 44: Bxg5+ blunder (-43% win) by white
+Analyzing game_90.pgn
+  Move 10: h6 inaccuracy (-16% win) by black
+  Move 14: Rf7 inaccuracy (-11% win) by black
+  Move 16: Rd8 inaccuracy (-11% win) by black
+Analyzing game_91.pgn
+  Move 3: b5 inaccuracy (-17% win) by black
+  Move 6: Nh6 inaccuracy (-11% win) by black
+  Move 8: Bxc2 inaccuracy (-14% win) by black
+  Move 9: Bd3 inaccuracy (-11% win) by white
+  Move 9: Nf5 inaccuracy (-17% win) by black
+  Move 11: O-O mistake (-23% win) by white
+  Move 14: g4 inaccuracy (-12% win) by white
+  Move 14: Qg5 blunder (-43% win) by black
+Analyzing game_92.pgn
+  Move 5: h5 inaccuracy (-13% win) by black
+  Move 8: Bg5 inaccuracy (-10% win) by white
+  Move 11: Nxh4 blunder (-39% win) by white
+  Move 14: e5 inaccuracy (-12% win) by white
+  Move 16: g4 inaccuracy (-12% win) by white
+Analyzing game_93.pgn
+  Move 3: d5 inaccuracy (-13% win) by black
+  Move 5: a3 inaccuracy (-15% win) by white
+  Move 14: Qg5 mistake (-26% win) by black
+  Move 15: f4 inaccuracy (-19% win) by white
+  Move 18: Bc3 mistake (-24% win) by white
+  Move 19: Bd6 inaccuracy (-20% win) by black
+  Move 20: f5 mistake (-28% win) by white
+  Move 26: Qe4 inaccuracy (-10% win) by white
+Analyzing game_94.pgn
+  Move 10: d5 inaccuracy (-13% win) by white
+  Move 15: b4 inaccuracy (-18% win) by white
+  Move 24: Qd4 blunder (-56% win) by black
+Analyzing game_95.pgn
+  Move 8: e5 inaccuracy (-13% win) by white
+  Move 8: Ng4 mistake (-20% win) by black
+  Move 11: Bxh6 inaccuracy (-14% win) by white
+  Move 13: g5 inaccuracy (-14% win) by black
+  Move 14: h4 mistake (-27% win) by white
+  Move 15: Bg7 inaccuracy (-16% win) by black
+  Move 16: c5 inaccuracy (-10% win) by black
+  Move 18: Nxe5 blunder (-41% win) by black
+  Move 19: Nf4 blunder (-77% win) by white
+Analyzing game_96.pgn
+  Move 8: Bb2 inaccuracy (-10% win) by white
+  Move 10: Nf3 inaccuracy (-13% win) by white
+  Move 10: Bg4 inaccuracy (-17% win) by black
+  Move 11: O-O inaccuracy (-17% win) by white
+  Move 11: O-O inaccuracy (-17% win) by black
+  Move 18: f4 inaccuracy (-10% win) by white
+  Move 18: Qc5+ inaccuracy (-11% win) by black
+  Move 19: h5 inaccuracy (-17% win) by black
+  Move 21: Rf1 inaccuracy (-17% win) by white
+  Move 24: Nd3 blunder (-69% win) by black
+Analyzing game_97.pgn
+  Move 2: f5 inaccuracy (-14% win) by black
+  Move 12: Re1 blunder (-34% win) by white
+  Move 21: Rxd7 inaccuracy (-17% win) by black
+  Move 25: Na3 mistake (-21% win) by black
+  Move 33: Rc1 inaccuracy (-12% win) by white
+  Move 36: c2 inaccuracy (-16% win) by black
+  Move 37: g5 inaccuracy (-12% win) by white
+  Move 41: Rg3 inaccuracy (-11% win) by white
+  Move 41: Rc5 blunder (-38% win) by black
+  Move 42: Rg5 blunder (-39% win) by white
+  Move 48: Kxf5 inaccuracy (-10% win) by black
+Analyzing game_98.pgn
+  Move 2: b4 inaccuracy (-10% win) by white
+  Move 6: f3 mistake (-27% win) by white
+  Move 6: a6 inaccuracy (-15% win) by black
+  Move 7: a5 inaccuracy (-12% win) by black
+  Move 13: Qb6 blunder (-35% win) by black
+  Move 14: c4 blunder (-35% win) by white
+  Move 15: Qxb5 blunder (-38% win) by black
+  Move 17: Qxd7 blunder (-53% win) by white
+  Move 28: Qb2 inaccuracy (-19% win) by black
+  Move 29: Nxa4 inaccuracy (-20% win) by white
+Analyzing game_99.pgn
+  Move 19: Na5 inaccuracy (-18% win) by white
+  Move 21: Nxa7 inaccuracy (-10% win) by white
+  Move 21: Rd3 inaccuracy (-18% win) by black
+  Move 22: Re1 inaccuracy (-18% win) by white
+  Move 23: b5 mistake (-27% win) by black
+  Move 24: Ne5 inaccuracy (-11% win) by white
+  Move 27: Rf5 mistake (-26% win) by black
+  Move 33: b6 blunder (-88% win) by white
+Analyzing game_100.pgn
+  Move 3: Bb5+ inaccuracy (-12% win) by white
+  Move 3: Nc6 inaccuracy (-16% win) by black
+  Move 4: Bxc6+ inaccuracy (-12% win) by white
+  Move 6: dxe4 inaccuracy (-10% win) by black
+  Move 10: Bxf6 inaccuracy (-16% win) by white
+  Move 12: Rd7 inaccuracy (-11% win) by black
+  Move 13: Rxe4 blunder (-37% win) by white
+Analyzing game_101.pgn
+  Move 13: O-O inaccuracy (-11% win) by white
+  Move 14: Rfd1 inaccuracy (-14% win) by white
+Analyzing game_102.pgn
+  Move 8: Qa5+ inaccuracy (-11% win) by black
+  Move 9: Qd2 inaccuracy (-19% win) by white
+  Move 15: f6 inaccuracy (-15% win) by black
+  Move 17: Qd5+ inaccuracy (-11% win) by white
+  Move 21: b5 inaccuracy (-11% win) by black
+  Move 22: Nd3 inaccuracy (-11% win) by black
+  Move 24: Rb4 mistake (-27% win) by white
+  Move 25: axb4 inaccuracy (-13% win) by white
+Analyzing game_103.pgn
+  Move 12: Ne4 mistake (-27% win) by white
+Analyzing game_104.pgn
+  Move 5: Bc5 inaccuracy (-15% win) by black
+  Move 6: Nb4 blunder (-30% win) by black
+Analyzing game_105.pgn
+  Move 8: h6 inaccuracy (-20% win) by black
+  Move 9: Qxf6 inaccuracy (-12% win) by black
+Analyzing game_106.pgn
+  Move 10: Nb5 inaccuracy (-19% win) by white
+  Move 12: Nbxd4 inaccuracy (-13% win) by white
+Analyzing game_107.pgn
+  Move 10: g3 mistake (-21% win) by white
+  Move 12: e4 inaccuracy (-12% win) by black
+  Move 15: f3 mistake (-22% win) by white
+  Move 15: Bf5 blunder (-38% win) by black
+  Move 16: f4 inaccuracy (-16% win) by white
+  Move 16: Qg6 inaccuracy (-18% win) by black
+  Move 17: Bf1 mistake (-29% win) by white
+  Move 17: h6 inaccuracy (-12% win) by black
+  Move 18: Nh3 inaccuracy (-13% win) by white
+  Move 18: Ng4 mistake (-25% win) by black
+  Move 19: Be2 blunder (-46% win) by white
+Analyzing game_108.pgn
+  Move 10: e5 inaccuracy (-19% win) by white
+  Move 10: Qd8 inaccuracy (-17% win) by black
+  Move 12: g3 inaccuracy (-18% win) by white
+  Move 18: Qb4 inaccuracy (-19% win) by black
+  Move 21: Bc5 inaccuracy (-12% win) by black
+Analyzing game_109.pgn
+  Move 5: Qd3 inaccuracy (-11% win) by white
+  Move 12: bxa4 inaccuracy (-19% win) by black
+  Move 14: exd5 inaccuracy (-10% win) by white
+  Move 16: Ra5 inaccuracy (-12% win) by white
+  Move 17: dxc6 mistake (-23% win) by white
+Analyzing game_110.pgn
+  Move 7: gxf3 inaccuracy (-11% win) by white
+  Move 7: d5 mistake (-21% win) by black
+  Move 9: Bg5 inaccuracy (-20% win) by white
+  Move 9: Be7 inaccuracy (-16% win) by black
+  Move 10: Qa4+ inaccuracy (-18% win) by white
+  Move 12: Qg5+ inaccuracy (-17% win) by black
+  Move 13: f4 inaccuracy (-17% win) by white
+  Move 13: exf4 blunder (-45% win) by black
+  Move 14: Nb5 mistake (-29% win) by white
+  Move 19: Qf4 inaccuracy (-18% win) by black
+  Move 20: Bh3 blunder (-78% win) by white
+  Move 20: Nf6 blunder (-79% win) by black
+  Move 21: Rc1 mistake (-23% win) by white
+  Move 23: Bf5 mistake (-23% win) by white
+  Move 23: Qe2 inaccuracy (-11% win) by black
+  Move 24: Qh2 inaccuracy (-14% win) by white
+  Move 25: Rc2 inaccuracy (-17% win) by white
+  Move 26: Qxc2 blunder (-51% win) by black
+  Move 28: Bg4 blunder (-43% win) by white
+  Move 29: f5 inaccuracy (-13% win) by black
+  Move 30: Rxh6 inaccuracy (-14% win) by white
+  Move 31: fxe4 inaccuracy (-19% win) by black
+  Move 38: Qxa4 blunder (-66% win) by white
+Analyzing game_111.pgn
+  Move 9: Bh4 blunder (-40% win) by white
+  Move 13: Rg8 blunder (-47% win) by black
+Analyzing game_112.pgn
+  Move 13: c5 inaccuracy (-12% win) by black
+  Move 15: Qd7 inaccuracy (-12% win) by black
+  Move 19: Qg4 inaccuracy (-18% win) by white
+  Move 20: Qa6 inaccuracy (-10% win) by black
+  Move 22: Bxf4 mistake (-20% win) by black
+  Move 23: Rg1 blunder (-49% win) by white
+  Move 23: Nxh5 blunder (-39% win) by black
+  Move 27: Qxe4 blunder (-39% win) by black
+Analyzing game_113.pgn
+  Move 5: Nxe5 mistake (-21% win) by white
+  Move 6: Nf3+ blunder (-37% win) by black
+  Move 8: e5 inaccuracy (-17% win) by white
+  Move 8: Bxc3+ mistake (-24% win) by black
+  Move 11: O-O-O blunder (-40% win) by white
+  Move 11: Re8 blunder (-33% win) by black
+  Move 12: Qf3 inaccuracy (-17% win) by white
+  Move 12: h5 mistake (-27% win) by black
+  Move 13: h3 inaccuracy (-19% win) by white
+  Move 13: Nh6 mistake (-21% win) by black
+Analyzing game_114.pgn
+  Move 10: Ng5 inaccuracy (-14% win) by white
+  Move 26: Rg2 blunder (-50% win) by white
+  Move 36: Qc1 blunder (-100% win) by black
+Analyzing game_115.pgn
+  Move 4: Bb4 inaccuracy (-15% win) by black
+  Move 5: Nxe5 mistake (-24% win) by black
+  Move 8: Ng4 blunder (-46% win) by white
+  Move 16: c5 inaccuracy (-13% win) by black
+  Move 17: a5 inaccuracy (-13% win) by black
+  Move 18: Qf3 inaccuracy (-15% win) by white
+  Move 19: Qg3 inaccuracy (-15% win) by white
+  Move 19: g6 blunder (-47% win) by black
+  Move 21: Qxc4 inaccuracy (-12% win) by black
+Analyzing game_116.pgn
+  Move 6: Na6 inaccuracy (-14% win) by black
+  Move 7: Be3 inaccuracy (-13% win) by white
+  Move 8: Nb4 blunder (-38% win) by white
+Analyzing game_117.pgn
+  Move 3: d4 inaccuracy (-11% win) by white
+  Move 8: O-O inaccuracy (-15% win) by white
+  Move 8: e6 inaccuracy (-12% win) by black
+  Move 22: Rcd1 inaccuracy (-10% win) by white
+  Move 22: Kf7 blunder (-48% win) by black
+  Move 23: Qxe5 inaccuracy (-13% win) by black
+  Move 26: Qxc6 blunder (-83% win) by white
+  Move 27: Kh2 inaccuracy (-19% win) by white
+  Move 27: Bxc6 inaccuracy (-11% win) by black
+  Move 28: c4 inaccuracy (-11% win) by white
+Analyzing game_118.pgn
+  Move 7: Qg6 inaccuracy (-12% win) by black
+  Move 9: Nh4 blunder (-50% win) by white
+  Move 11: Bxf1 inaccuracy (-12% win) by white
+Analyzing game_119.pgn
+  Move 6: Bc4 blunder (-32% win) by white
+  Move 7: Ne5 mistake (-30% win) by black
+  Move 8: Bxe5 inaccuracy (-16% win) by black
+  Move 11: Nd5+ mistake (-21% win) by white
+  Move 17: Bg5 mistake (-20% win) by white
+  Move 17: f6 inaccuracy (-20% win) by black
+  Move 29: b4 mistake (-29% win) by black
+Analyzing game_120.pgn
+  Move 15: Rfd8 mistake (-25% win) by black
+Analyzing game_121.pgn
+  Move 4: Nxd4 blunder (-30% win) by black
+  Move 9: c5 inaccuracy (-14% win) by black
+  Move 10: Qd2 inaccuracy (-13% win) by white
+  Move 13: Bxg6 inaccuracy (-14% win) by white
+  Move 13: dxc3 inaccuracy (-13% win) by black
+  Move 15: b3 blunder (-36% win) by white
+  Move 18: Nxf4 inaccuracy (-10% win) by white
+  Move 18: g5 mistake (-24% win) by black
+  Move 19: Kg7 inaccuracy (-11% win) by black
+  Move 21: Kf2 inaccuracy (-11% win) by white
+  Move 32: Kd4 inaccuracy (-17% win) by white
+  Move 32: f4 inaccuracy (-20% win) by black
+  Move 34: Rxa6 inaccuracy (-18% win) by white
+  Move 34: g3 mistake (-20% win) by black
+  Move 38: Rb7+ mistake (-21% win) by white
+Analyzing game_122.pgn
+  Move 9: Nxe4 inaccuracy (-17% win) by black
+  Move 14: gxh5 inaccuracy (-12% win) by black
+Analyzing game_123.pgn
+  Move 8: Ne4 mistake (-21% win) by black
+  Move 24: fxg5 inaccuracy (-16% win) by white
+Analyzing game_124.pgn
+  Move 6: Qd2 inaccuracy (-19% win) by white
+  Move 10: c5 mistake (-29% win) by black
+  Move 11: Nb5 blunder (-33% win) by white
+  Move 11: d4 blunder (-43% win) by black
+  Move 12: Qd3 blunder (-41% win) by white
+  Move 12: Ng5 blunder (-41% win) by black
+  Move 13: f6 inaccuracy (-16% win) by black
+Analyzing game_125.pgn
+  Move 11: g3 inaccuracy (-12% win) by white
+  Move 12: Re8 inaccuracy (-13% win) by black
+Analyzing game_126.pgn
+  Move 5: Nf6 inaccuracy (-10% win) by black
+  Move 6: O-O inaccuracy (-13% win) by white
+  Move 15: Rxf6 mistake (-21% win) by black
+  Move 19: Rc8 inaccuracy (-10% win) by black
+Analyzing game_127.pgn
+  Move 10: Nd5 mistake (-28% win) by white
+  Move 11: Rf8 blunder (-67% win) by black
+  Move 17: c6 inaccuracy (-12% win) by black
+Analyzing game_128.pgn
+  Move 4: Rb8 mistake (-22% win) by black
+  Move 14: Rc1 blunder (-43% win) by white
+  Move 16: Nd6 blunder (-38% win) by black
+  Move 18: Ra2 inaccuracy (-17% win) by white
+  Move 18: Bc1 mistake (-20% win) by black
+  Move 19: h4 blunder (-46% win) by white
+  Move 19: Qb7 blunder (-32% win) by black
+  Move 20: Kf2 blunder (-49% win) by white
+  Move 22: Nb6 inaccuracy (-10% win) by black
+  Move 23: Qd1 inaccuracy (-10% win) by white
+  Move 23: Ra8 blunder (-58% win) by black
+  Move 25: Qd3 mistake (-23% win) by white
+  Move 25: Qf4 blunder (-42% win) by black
+  Move 32: g4 blunder (-93% win) by white
+Analyzing game_129.pgn
+  Move 3: f6 inaccuracy (-11% win) by black
+  Move 5: Bg5 inaccuracy (-10% win) by white
+  Move 7: Nxe4 mistake (-22% win) by black
+  Move 13: Bxe4 mistake (-22% win) by white
+  Move 15: Nxd5 blunder (-35% win) by white
+Analyzing game_130.pgn
+  Move 8: Bf4 inaccuracy (-14% win) by white
+  Move 9: Bc4 mistake (-21% win) by white
+  Move 9: a6 mistake (-26% win) by black
+  Move 10: O-O mistake (-24% win) by white
+  Move 10: b5 inaccuracy (-13% win) by black
+  Move 13: g3 blunder (-45% win) by white
+  Move 28: Bxe6 blunder (-32% win) by black
+  Move 29: b5 blunder (-33% win) by white
+  Move 31: Nd3+ blunder (-42% win) by black
+  Move 34: f6 blunder (-53% win) by white
+  Move 37: Ke4 inaccuracy (-17% win) by white
+  Move 38: Rd7+ inaccuracy (-15% win) by black
+  Move 40: Rd8 blunder (-61% win) by black
+Analyzing game_131.pgn
+  Move 9: d5 inaccuracy (-11% win) by white
+  Move 10: b4 inaccuracy (-10% win) by white
+  Move 17: cxb5 inaccuracy (-16% win) by black
+  Move 18: Nxb5 mistake (-21% win) by white
+  Move 22: Nb6+ inaccuracy (-15% win) by white
+  Move 25: f4 inaccuracy (-17% win) by white
+  Move 25: f6 inaccuracy (-16% win) by black
+  Move 27: f4 mistake (-27% win) by white
+  Move 29: Rc7 inaccuracy (-19% win) by white
+  Move 36: Be5 inaccuracy (-10% win) by black
+Analyzing game_132.pgn
+  Move 3: Bc5 inaccuracy (-12% win) by black
+  Move 4: Qb3 inaccuracy (-15% win) by white
+  Move 6: d4 inaccuracy (-15% win) by white
+  Move 9: Nb5 blunder (-48% win) by black
+  Move 10: Qb4 blunder (-38% win) by white
+  Move 10: c6 inaccuracy (-12% win) by black
+  Move 11: Nd2 inaccuracy (-17% win) by white
+  Move 13: Qh3 inaccuracy (-20% win) by white
+Analyzing game_133.pgn
+  Move 5: Bg4 inaccuracy (-14% win) by black
+  Move 6: e5 inaccuracy (-13% win) by white
+  Move 9: Bg5 mistake (-21% win) by white
+  Move 9: Be7 inaccuracy (-18% win) by black
+  Move 15: Re8 mistake (-21% win) by black
+  Move 16: O-O inaccuracy (-12% win) by white
+  Move 20: Qe4 inaccuracy (-13% win) by white
+  Move 21: Bb1 inaccuracy (-14% win) by white
+  Move 21: Rf8 inaccuracy (-11% win) by black
+  Move 22: f4 inaccuracy (-10% win) by white
+  Move 22: f5 inaccuracy (-14% win) by black
+  Move 23: Nc4 inaccuracy (-14% win) by black
+  Move 24: Rf7 mistake (-23% win) by black
+  Move 25: Re1 inaccuracy (-17% win) by white
+  Move 27: Bc2 inaccuracy (-13% win) by white
+  Move 36: Re6 blunder (-32% win) by white
+  Move 36: Nc5 blunder (-31% win) by black
+  Move 38: Ne6 inaccuracy (-11% win) by black
+Analyzing game_134.pgn
+  Move 9: O-O inaccuracy (-12% win) by white
+  Move 10: Qa3 inaccuracy (-12% win) by white
+  Move 12: bxc3 inaccuracy (-11% win) by white
+  Move 24: Rg4 inaccuracy (-12% win) by white
+Analyzing game_135.pgn
+  Move 4: Bd3 inaccuracy (-19% win) by white
+  Move 4: Bg4 inaccuracy (-17% win) by black
+  Move 5: O-O inaccuracy (-13% win) by white
+  Move 5: Bd6 inaccuracy (-16% win) by black
+  Move 10: Nxe4 mistake (-21% win) by white
+  Move 10: Bxf3 mistake (-26% win) by black
+  Move 12: Qd3 mistake (-24% win) by white
+  Move 12: Bc5 blunder (-31% win) by black
+  Move 22: Rxh3 blunder (-92% win) by white
+  Move 22: f6 blunder (-97% win) by black
+  Move 23: Qe7 blunder (-97% win) by white
+  Move 23: Nf4 blunder (-97% win) by black
+Analyzing game_136.pgn
+  Move 10: Qg6 inaccuracy (-18% win) by black
+  Move 16: cxd4 inaccuracy (-10% win) by white
+  Move 16: Bxd4 inaccuracy (-13% win) by black
+  Move 17: Rc1 mistake (-23% win) by white
+  Move 17: c5 mistake (-24% win) by black
+  Move 18: h3 blunder (-34% win) by white
+  Move 18: Bxb2 blunder (-36% win) by black
+  Move 19: Rb1 mistake (-21% win) by white
+  Move 19: Rb8 mistake (-23% win) by black
+  Move 24: Qxg7 blunder (-40% win) by white
+  Move 27: Kc6 inaccuracy (-16% win) by black
+  Move 31: Kb3 inaccuracy (-16% win) by black
+  Move 32: a5 blunder (-34% win) by white
+  Move 33: Rh7 mistake (-28% win) by white
+  Move 36: Bc7 blunder (-39% win) by black
+  Move 39: f4 blunder (-36% win) by white
+  Move 40: Kc3 blunder (-40% win) by black
+Analyzing game_137.pgn
+  Move 3: Nc3 inaccuracy (-18% win) by white
+  Move 5: e5 inaccuracy (-12% win) by black
+  Move 12: O-O-O inaccuracy (-11% win) by black
+  Move 13: Re8 mistake (-23% win) by black
+  Move 22: Rd1+ inaccuracy (-11% win) by white
+Analyzing game_138.pgn
+  Move 5: Nf6 inaccuracy (-16% win) by black
+  Move 6: d3 inaccuracy (-16% win) by white
+  Move 13: Nb5 blunder (-30% win) by white
+  Move 15: exf4 blunder (-51% win) by black
+Analyzing game_139.pgn
+  Move 3: Nxd4 mistake (-26% win) by black
+Analyzing game_140.pgn
+  Move 2: Nc3 inaccuracy (-12% win) by white
+  Move 5: h6 mistake (-21% win) by black
+  Move 6: N5f3 inaccuracy (-19% win) by white
+  Move 8: Ba5 inaccuracy (-12% win) by black
+  Move 12: d5 mistake (-23% win) by white
+  Move 13: Rxd5 mistake (-29% win) by white
+Analyzing game_141.pgn
+  Move 6: Bxd5 inaccuracy (-11% win) by white
+  Move 12: f4 inaccuracy (-11% win) by white
+  Move 19: Be3 inaccuracy (-11% win) by white
+Analyzing game_142.pgn
+  Move 4: Be7 inaccuracy (-12% win) by black
+  Move 8: Nf6 mistake (-21% win) by black
+  Move 9: Re1 mistake (-29% win) by white
+  Move 9: O-O mistake (-25% win) by black
+  Move 10: Nc3 inaccuracy (-16% win) by white
+  Move 10: Bg4 inaccuracy (-17% win) by black
+  Move 11: b3 mistake (-21% win) by white
+  Move 15: Qd2 inaccuracy (-11% win) by black
+  Move 17: exf6 mistake (-23% win) by white
+  Move 17: Qxb2 inaccuracy (-15% win) by black
+  Move 19: gxf6 inaccuracy (-11% win) by black
+  Move 23: Kh2 inaccuracy (-17% win) by white
+  Move 23: Qf4+ inaccuracy (-16% win) by black
+  Move 25: Qd8 inaccuracy (-14% win) by white
+  Move 25: Be7 inaccuracy (-17% win) by black
+Analyzing game_143.pgn
+  Move 5: Nxe5 mistake (-21% win) by white
+  Move 12: Bh6 inaccuracy (-16% win) by white
+  Move 14: b3 inaccuracy (-13% win) by white
+Analyzing game_144.pgn
+  Move 2: Nc3 inaccuracy (-10% win) by white
+  Move 2: e5 inaccuracy (-14% win) by black
+  Move 3: d3 inaccuracy (-15% win) by white
+  Move 5: Bb4 inaccuracy (-16% win) by black
+  Move 6: Be2 inaccuracy (-18% win) by white
+  Move 6: Bxc3+ mistake (-21% win) by black
+  Move 9: Ng4 inaccuracy (-11% win) by white
+  Move 9: h5 inaccuracy (-16% win) by black
+  Move 21: Bh4 mistake (-21% win) by white
+  Move 22: Rxb7 inaccuracy (-15% win) by white
+  Move 22: Ne5 mistake (-28% win) by black
+  Move 24: Bxf6 inaccuracy (-13% win) by white
+  Move 33: Be5+ blunder (-50% win) by white
+  Move 39: Ke3 blunder (-50% win) by black
+  Move 44: Qb4 inaccuracy (-10% win) by white
+  Move 54: Qxa7 blunder (-50% win) by white
+Analyzing game_145.pgn
+  Move 2: e4 inaccuracy (-11% win) by white
+  Move 5: Qe2 mistake (-21% win) by white
+  Move 6: Nxc2+ blunder (-48% win) by black
+  Move 12: Qc3 inaccuracy (-12% win) by white
+  Move 13: dxe4 inaccuracy (-16% win) by black
+  Move 15: Qh3 inaccuracy (-15% win) by white
+  Move 15: Nf6 inaccuracy (-14% win) by black
+  Move 16: Bh6 blunder (-49% win) by white
+  Move 16: gxh6 mistake (-23% win) by black
+  Move 17: Kh8 blunder (-54% win) by black
+Analyzing game_146.pgn
+  Move 12: d4 inaccuracy (-19% win) by white
+  Move 15: Qd7 inaccuracy (-20% win) by black
+  Move 16: Na5 blunder (-39% win) by white
+Analyzing game_147.pgn
+  Move 8: d5 inaccuracy (-14% win) by white
+  Move 9: a4 blunder (-40% win) by white
+  Move 11: Ncxe4 mistake (-30% win) by black
+  Move 14: Kd7 inaccuracy (-12% win) by black
+  Move 16: Qxf7 mistake (-27% win) by white
+  Move 18: Qf6 blunder (-35% win) by black
+  Move 21: f4 inaccuracy (-19% win) by white
+  Move 21: e4 inaccuracy (-16% win) by black
+  Move 28: d6 inaccuracy (-13% win) by white
+  Move 50: Rxh7 mistake (-24% win) by white
+  Move 50: R4e3+ inaccuracy (-14% win) by black
+Analyzing game_148.pgn
+  Move 5: Nxe5 mistake (-29% win) by white
+  Move 7: Bd6 blunder (-41% win) by black
+  Move 8: Be6 mistake (-22% win) by black
+  Move 10: Nf6+ blunder (-57% win) by white
+  Move 11: d4 inaccuracy (-13% win) by white
+  Move 11: Nc4 blunder (-58% win) by black
+  Move 12: d5 blunder (-60% win) by white
+  Move 12: Kd8 blunder (-77% win) by black
+Analyzing game_149.pgn
+  Move 14: Rfe8 inaccuracy (-19% win) by black
+  Move 15: Qg4 inaccuracy (-19% win) by white
+  Move 22: Qe6 inaccuracy (-14% win) by black
+  Move 26: g6 blunder (-35% win) by black
+Analyzing game_150.pgn
+  Move 3: Qf6 inaccuracy (-12% win) by black
+  Move 8: Bh3 mistake (-26% win) by black
+Analyzing game_151.pgn
+  Move 3: c5 inaccuracy (-15% win) by black
+  Move 4: Nc6 mistake (-21% win) by black
+  Move 10: Ne5 blunder (-58% win) by white
+  Move 10: Qxc5 blunder (-60% win) by black
+Analyzing game_152.pgn
+  Move 5: Bb4 inaccuracy (-19% win) by black
+  Move 6: Nd4 mistake (-25% win) by black
+  Move 8: Nxh7+ mistake (-27% win) by white
+  Move 9: c3 mistake (-29% win) by white
+Analyzing game_153.pgn
+  Move 5: Nd3+ inaccuracy (-17% win) by black
+  Move 7: d6 inaccuracy (-18% win) by black
+  Move 8: O-O inaccuracy (-13% win) by white
+  Move 8: Qh4 inaccuracy (-14% win) by black
+Analyzing game_154.pgn
+  Move 4: Bd6 inaccuracy (-11% win) by black
+  Move 6: Bb5 inaccuracy (-15% win) by white
+  Move 9: Bxd2+ inaccuracy (-12% win) by black
+  Move 10: Nfxd2 inaccuracy (-11% win) by white
+  Move 13: c6 inaccuracy (-17% win) by black
+  Move 15: Bc2 inaccuracy (-12% win) by white
+  Move 17: Nf6+ mistake (-28% win) by white
+  Move 28: Qxd7 inaccuracy (-16% win) by white
+Analyzing game_155.pgn
+  Move 2: Qf6 inaccuracy (-11% win) by black
+  Move 8: Bg5 inaccuracy (-13% win) by white
+  Move 9: Qxe4 mistake (-24% win) by black
+Analyzing game_156.pgn
+  Move 3: Qg4 blunder (-33% win) by white
+  Move 3: Nf6 mistake (-25% win) by black
+  Move 5: e4 inaccuracy (-14% win) by white
+  Move 6: Bd3 inaccuracy (-11% win) by white
+  Move 7: Qe3 inaccuracy (-11% win) by white
+  Move 7: Nxc2+ blunder (-57% win) by black
+  Move 10: Nc3 inaccuracy (-16% win) by white
+  Move 10: Qa5 inaccuracy (-20% win) by black
+  Move 11: Bd3 inaccuracy (-11% win) by white
+  Move 14: b4 blunder (-43% win) by white
+  Move 14: Qb6 blunder (-53% win) by black
+  Move 15: bxc5 inaccuracy (-13% win) by white
+  Move 15: Qxc5 mistake (-26% win) by black
+  Move 16: Bxe4 blunder (-49% win) by white
+  Move 18: Qd4 blunder (-34% win) by black
+  Move 19: Rb1 mistake (-28% win) by white
+  Move 19: f5 blunder (-40% win) by black
+  Move 21: Qc2 inaccuracy (-16% win) by black
+Analyzing game_157.pgn
+  Move 12: Bxd5 mistake (-26% win) by white
+  Move 18: Rae8 blunder (-36% win) by black
+  Move 19: exf7+ blunder (-34% win) by white
+  Move 30: Ra4+ blunder (-49% win) by black
+  Move 34: g5 mistake (-22% win) by black
+  Move 40: f5 inaccuracy (-14% win) by white
+  Move 46: Kd3 inaccuracy (-15% win) by white
+  Move 47: Kc3 mistake (-29% win) by white
+  Move 49: Ba3 blunder (-44% win) by black
+  Move 59: Kf3 blunder (-50% win) by white
+Analyzing game_158.pgn
+  Move 2: f6 inaccuracy (-14% win) by black
+  Move 3: fxe5 mistake (-21% win) by black
+  Move 5: Bg5+ mistake (-25% win) by white
+  Move 6: Qf3 inaccuracy (-12% win) by white
+  Move 9: h6 inaccuracy (-19% win) by black
+  Move 10: Bxa8 mistake (-21% win) by white
+  Move 11: Nc6 mistake (-28% win) by black
+  Move 13: Qxe5+ blunder (-65% win) by white
+Analyzing game_159.pgn
+  Move 5: Nxe5 mistake (-22% win) by white
+  Move 11: Nxd5 inaccuracy (-15% win) by white
+  Move 22: f5 blunder (-61% win) by black
+  Move 23: Qf4 blunder (-58% win) by white
+  Move 36: Nd6 blunder (-31% win) by black
+  Move 37: Rxf4 mistake (-23% win) by white
+  Move 46: Kf5 blunder (-44% win) by black
+Analyzing game_160.pgn
+  Move 12: exd3 blunder (-37% win) by black
+  Move 25: Kf1 blunder (-42% win) by white
+  Move 26: Ke1 mistake (-30% win) by white
+Analyzing game_161.pgn
+  Move 14: Na4 blunder (-37% win) by black
+  Move 24: exd5 inaccuracy (-10% win) by white
+  Move 27: Qf8+ blunder (-81% win) by white
+Analyzing game_162.pgn
+  Move 12: a4 inaccuracy (-15% win) by white
+  Move 15: h5 inaccuracy (-11% win) by black
+  Move 16: Qxc4 mistake (-21% win) by white
+  Move 16: g5 mistake (-26% win) by black
+  Move 22: Nc4 inaccuracy (-12% win) by black
+  Move 23: Bb4 inaccuracy (-17% win) by white
+  Move 23: Nd2 inaccuracy (-19% win) by black
+  Move 25: Nd2 inaccuracy (-17% win) by black
+  Move 27: dxc5 blunder (-33% win) by white
+  Move 29: Ra6 inaccuracy (-11% win) by white
+  Move 30: Bxf7 inaccuracy (-17% win) by white
+  Move 30: Nd7 blunder (-33% win) by black
+  Move 31: Bd5+ blunder (-54% win) by white
+Analyzing game_163.pgn
+  Move 12: d5 mistake (-22% win) by black
+  Move 16: a4 blunder (-45% win) by white
+  Move 21: Bxe5 mistake (-24% win) by black
+  Move 23: Bxh6 mistake (-25% win) by white
+  Move 23: Qh4 mistake (-28% win) by black
+  Move 24: g3 mistake (-23% win) by white
+  Move 24: Qxh6 inaccuracy (-17% win) by black
+  Move 26: Ra8 inaccuracy (-18% win) by black
+  Move 27: Re1 inaccuracy (-19% win) by white
+  Move 28: Qb6 inaccuracy (-19% win) by black
+  Move 29: Qd6 blunder (-35% win) by black
+Analyzing game_164.pgn
+  Move 6: Bxe5 mistake (-20% win) by black
+  Move 8: Be2 inaccuracy (-11% win) by white
+  Move 9: O-O inaccuracy (-11% win) by white
+  Move 15: Re8 inaccuracy (-15% win) by black
+Analyzing game_165.pgn
+  Move 5: Nc6 inaccuracy (-12% win) by black
+  Move 7: Bg4 inaccuracy (-17% win) by black
+  Move 9: Bxe2 inaccuracy (-17% win) by white
+  Move 10: Qa4+ inaccuracy (-19% win) by white
+  Move 11: Be3 inaccuracy (-12% win) by white
+  Move 14: b5 mistake (-29% win) by black
+Analyzing game_166.pgn
+  Move 4: Bd6 inaccuracy (-19% win) by black
+  Move 6: Bg5 inaccuracy (-14% win) by white
+  Move 11: Qh4 inaccuracy (-14% win) by black
+  Move 12: Nf5 blunder (-40% win) by white
+Analyzing game_167.pgn
+  Move 3: Nxd4 mistake (-26% win) by black
+Analyzing game_168.pgn
+  Move 12: Qxd7 inaccuracy (-11% win) by black
+Analyzing game_169.pgn
+  Move 5: Nxe5 mistake (-23% win) by white
+  Move 6: Neg4 inaccuracy (-19% win) by black
+  Move 7: O-O inaccuracy (-13% win) by white
+  Move 9: O-O mistake (-25% win) by black
+  Move 10: Re1 mistake (-28% win) by white
+  Move 11: Bxf6 inaccuracy (-12% win) by white
+  Move 15: Nxc8 inaccuracy (-13% win) by white
+  Move 15: Raxc8 blunder (-44% win) by black
+  Move 19: Rxf7 blunder (-46% win) by black
+  Move 29: Kg1 mistake (-27% win) by white
+  Move 29: Qe3+ mistake (-24% win) by black
+  Move 31: h3 blunder (-79% win) by white
+  Move 34: Bxg3 mistake (-27% win) by black
+  Move 35: Qf7+ blunder (-31% win) by white
+Analyzing game_170.pgn
+  Move 4: d5 inaccuracy (-14% win) by black
+  Move 6: exd5 inaccuracy (-11% win) by white
+  Move 6: Nxd5 inaccuracy (-12% win) by black
+  Move 15: Bg5 mistake (-22% win) by white
+  Move 15: Be7 blunder (-33% win) by black
+  Move 19: f4 inaccuracy (-11% win) by black
+  Move 30: Rae1 blunder (-87% win) by white
+Analyzing game_171.pgn
+  Move 4: Bc4 inaccuracy (-13% win) by white
+  Move 11: e5 mistake (-23% win) by black
+  Move 12: O-O-O mistake (-21% win) by black
+Analyzing game_172.pgn
+  Move 13: O-O inaccuracy (-11% win) by black
+  Move 14: Qg4 inaccuracy (-19% win) by white
+  Move 15: Qxb2 inaccuracy (-20% win) by black
+  Move 17: g6 inaccuracy (-14% win) by black
+  Move 18: Bxf8 mistake (-21% win) by white
+  Move 20: g4 inaccuracy (-12% win) by white
+  Move 22: Bd5 mistake (-20% win) by white
+  Move 22: Rb2 mistake (-27% win) by black
+  Move 23: g5 blunder (-40% win) by white
+  Move 25: Qg4 blunder (-35% win) by white
+  Move 25: Bf4 blunder (-31% win) by black
+  Move 26: c4 inaccuracy (-12% win) by black
+  Move 35: Qxa5 inaccuracy (-16% win) by white
+  Move 39: Ke1 inaccuracy (-14% win) by white
+  Move 39: Qh1+ inaccuracy (-15% win) by black
+Analyzing game_173.pgn
+  Move 6: Bxd5 inaccuracy (-12% win) by white
+  Move 11: a3 inaccuracy (-14% win) by white
+  Move 18: Nc2 inaccuracy (-12% win) by black
+  Move 20: Rfc1 inaccuracy (-17% win) by white
+  Move 21: Bxa7+ inaccuracy (-12% win) by white
+  Move 25: Rb6 inaccuracy (-12% win) by white
+Analyzing game_174.pgn
+  Move 6: Qf3 inaccuracy (-14% win) by white
+  Move 7: Be6 blunder (-38% win) by black
+  Move 14: Qd5+ inaccuracy (-11% win) by white
+  Move 15: dxe5 inaccuracy (-16% win) by white
+  Move 19: Bb4 inaccuracy (-15% win) by black
+  Move 25: Kc6 inaccuracy (-14% win) by black
+  Move 26: Nd4+ inaccuracy (-15% win) by white
+Analyzing game_175.pgn
+  Move 9: Qe7 inaccuracy (-11% win) by black
+  Move 13: Bb5 inaccuracy (-13% win) by white
+  Move 13: Be6 mistake (-29% win) by black
+  Move 14: dxe5 mistake (-22% win) by white
+  Move 15: Qd6 inaccuracy (-20% win) by black
+  Move 23: Ne7 blunder (-32% win) by white
+  Move 23: Rfe8 blunder (-37% win) by black
+  Move 29: e5 mistake (-21% win) by white
+  Move 39: g6 inaccuracy (-11% win) by black
+  Move 40: hxg6 inaccuracy (-17% win) by white
+  Move 56: Ke4 blunder (-44% win) by white
+  Move 56: Bg2+ blunder (-44% win) by black
+Analyzing game_176.pgn
+  Move 7: d3 inaccuracy (-13% win) by white
+  Move 8: Nf6 mistake (-26% win) by black
+  Move 10: Be3 mistake (-25% win) by white
+  Move 12: Be6 inaccuracy (-15% win) by black
+  Move 14: Rf5 mistake (-29% win) by black
+Analyzing game_177.pgn
+  Move 6: Nxe4 mistake (-29% win) by black
+  Move 14: Rad1 inaccuracy (-15% win) by white
+  Move 15: c6 inaccuracy (-11% win) by black
+  Move 16: Qe3 inaccuracy (-18% win) by white
+  Move 29: f4 blunder (-39% win) by white
+Analyzing game_178.pgn
+  Move 6: Bb6 inaccuracy (-10% win) by black
+  Move 7: O-O inaccuracy (-15% win) by white
+  Move 11: Re8 inaccuracy (-11% win) by black
+  Move 12: d6 inaccuracy (-11% win) by black
+  Move 13: Qd5 blunder (-33% win) by white
+  Move 13: dxe5 blunder (-38% win) by black
+  Move 20: Rxe5 blunder (-33% win) by white
+  Move 21: Re8 blunder (-42% win) by black
+  Move 22: Nxc6 blunder (-42% win) by white
+  Move 22: Bc2 blunder (-45% win) by black
+  Move 23: Rd7 blunder (-46% win) by white
+  Move 24: Bxf2 mistake (-29% win) by black
+  Move 26: Ne5 blunder (-33% win) by white
+  Move 30: Bg3+ blunder (-50% win) by black
+Analyzing game_179.pgn
+  Move 11: Qd3 inaccuracy (-11% win) by white
+  Move 14: Qb5+ mistake (-23% win) by white
+  Move 14: Kc8 blunder (-31% win) by black
+  Move 16: b6 blunder (-34% win) by black
+  Move 23: Qd7 inaccuracy (-12% win) by white
+  Move 23: Rg6 inaccuracy (-14% win) by black
+  Move 27: a4 blunder (-34% win) by white
+  Move 29: Rf1 inaccuracy (-10% win) by white
+  Move 31: Qe8+ inaccuracy (-17% win) by white
+  Move 32: Rf8 inaccuracy (-15% win) by black
+  Move 34: Qxd6 mistake (-23% win) by white
+  Move 34: Qf5 blunder (-40% win) by black
+  Move 35: b3 blunder (-42% win) by white
+  Move 36: Qe4+ blunder (-48% win) by black
+  Move 37: Kg1 blunder (-48% win) by white
+Analyzing game_180.pgn
+  Move 6: e5 inaccuracy (-14% win) by black
+  Move 7: Bg5 inaccuracy (-14% win) by white
+  Move 14: e5 inaccuracy (-20% win) by white
+  Move 14: dxe5 inaccuracy (-10% win) by black
+  Move 15: b4 inaccuracy (-16% win) by white
+  Move 17: Qe7 blunder (-71% win) by black
+Analyzing game_181.pgn
+  Move 4: Nxe5 inaccuracy (-15% win) by white
+  Move 6: e5 inaccuracy (-12% win) by white
+  Move 10: exd6+ inaccuracy (-11% win) by white
+Analyzing game_182.pgn
+  Move 7: Na5 inaccuracy (-11% win) by black
+  Move 8: h3 inaccuracy (-12% win) by white
+  Move 9: f4 inaccuracy (-12% win) by white
+  Move 10: b6 inaccuracy (-12% win) by black
+  Move 11: f5 inaccuracy (-18% win) by white
+  Move 11: Bb7 mistake (-21% win) by black
+  Move 13: Bxd5 mistake (-24% win) by black
+  Move 17: Qd4 blunder (-76% win) by white
+Analyzing game_183.pgn
+  Move 9: Bb6 inaccuracy (-16% win) by black
+  Move 10: Bxf6 inaccuracy (-15% win) by white
+  Move 11: Bg4 mistake (-23% win) by black
+  Move 12: b4 inaccuracy (-17% win) by white
+  Move 12: a5 inaccuracy (-13% win) by black
+  Move 13: h3 inaccuracy (-16% win) by white
+  Move 14: axb4 inaccuracy (-17% win) by black
+  Move 17: Qg5+ inaccuracy (-16% win) by white
+  Move 17: Kh8 blunder (-33% win) by black
+  Move 18: Nxb4 inaccuracy (-16% win) by black
+  Move 19: Rc1 inaccuracy (-18% win) by white
+  Move 19: Rf8 inaccuracy (-14% win) by black
+Analyzing game_184.pgn
+  Move 8: Re1 inaccuracy (-11% win) by white
+  Move 8: c5 inaccuracy (-16% win) by black
+  Move 14: Nxf7+ blunder (-66% win) by white
+  Move 15: Rg5 blunder (-67% win) by black
+Analyzing game_185.pgn
+  Move 4: f5 inaccuracy (-12% win) by black
+  Move 17: g4 inaccuracy (-19% win) by white
+Analyzing game_186.pgn
+Analyzing game_187.pgn
+  Move 10: Re8 inaccuracy (-18% win) by black
+  Move 11: Nxc7 blunder (-43% win) by white
+Analyzing game_188.pgn
+  Move 14: Rad1 mistake (-22% win) by white
+Analyzing game_189.pgn
+  Move 4: Nf6 inaccuracy (-13% win) by black
+  Move 5: O-O inaccuracy (-14% win) by white
+  Move 5: h5 mistake (-21% win) by black
+  Move 6: d3 inaccuracy (-11% win) by white
+  Move 6: h4 inaccuracy (-15% win) by black
+  Move 7: Bg5 inaccuracy (-19% win) by white
+  Move 8: gxh3 mistake (-20% win) by white
+  Move 11: Nd5 blunder (-32% win) by white
+Analyzing game_190.pgn
+  Move 4: Qf3 inaccuracy (-12% win) by white
+  Move 8: Na3 inaccuracy (-17% win) by white
+  Move 23: Rd1 inaccuracy (-12% win) by white
+Analyzing game_191.pgn
+  Move 6: Bg4 mistake (-21% win) by black
+  Move 7: O-O mistake (-23% win) by white
+  Move 8: Qe1 inaccuracy (-17% win) by white
+Analyzing game_192.pgn
+  Move 4: Nf6 inaccuracy (-14% win) by black
+  Move 5: Nce2 inaccuracy (-20% win) by white
+  Move 7: Bxd5 mistake (-21% win) by white
+Analyzing game_193.pgn
+  Move 10: d6 mistake (-26% win) by black
+Analyzing game_194.pgn
+  Move 10: d3 inaccuracy (-11% win) by white
+  Move 10: Be7 inaccuracy (-11% win) by black
+  Move 11: Be3 inaccuracy (-15% win) by white
+  Move 16: Nxg6 blunder (-35% win) by white
+  Move 16: Bxh2+ blunder (-51% win) by black
+  Move 21: Rf7 mistake (-21% win) by black
+  Move 24: Bh5 inaccuracy (-15% win) by white
+  Move 26: Ba6 inaccuracy (-12% win) by black
+Analyzing game_195.pgn
+  Move 6: e5 mistake (-22% win) by black
+  Move 7: Bg2 mistake (-28% win) by white
+  Move 7: Bb4 mistake (-29% win) by black
+  Move 8: a3 mistake (-23% win) by white
+  Move 9: O-O mistake (-24% win) by black
+  Move 12: Qf6 mistake (-21% win) by black
+  Move 14: e4 blunder (-92% win) by white
+Analyzing game_196.pgn
+  Move 8: h5 inaccuracy (-10% win) by black
+  Move 10: Rh6 mistake (-28% win) by black
+  Move 19: Qa6+ blunder (-39% win) by white
+  Move 20: gxf3 inaccuracy (-11% win) by white
+  Move 20: Rg8+ blunder (-51% win) by black
+  Move 21: Qh3+ inaccuracy (-13% win) by black
+  Move 23: Rg2 inaccuracy (-10% win) by black
+Analyzing game_197.pgn
+  Move 13: dxe5 inaccuracy (-12% win) by white
+  Move 17: Nxf3 inaccuracy (-12% win) by black
+  Move 20: Ne5 blunder (-49% win) by black
+  Move 23: Ra5 inaccuracy (-19% win) by black
+  Move 27: Qh5 mistake (-23% win) by white
+  Move 28: gxh5 inaccuracy (-13% win) by black
+  Move 32: d4 inaccuracy (-15% win) by black
+Analyzing game_198.pgn
+  Move 13: Rb1 inaccuracy (-14% win) by white
+  Move 14: Bb4 inaccuracy (-14% win) by black
+  Move 16: Rb8 blunder (-43% win) by black
+  Move 17: Bxb4 inaccuracy (-15% win) by white
+  Move 18: Rxb4 mistake (-23% win) by white
+  Move 20: Nb3 mistake (-27% win) by white
+  Move 23: Rh6 mistake (-29% win) by black
+  Move 26: Ke1 inaccuracy (-12% win) by white
+  Move 28: Kd3 blunder (-39% win) by white
+  Move 28: Qb5+ blunder (-38% win) by black
+  Move 29: Kd4 mistake (-20% win) by white
+  Move 29: Rd1+ inaccuracy (-16% win) by black
+  Move 32: f6+ blunder (-44% win) by black
+  Move 33: Qf8 inaccuracy (-19% win) by black
+Analyzing game_199.pgn
+Analyzing game_200.pgn
+  Move 6: c4 inaccuracy (-12% win) by black
+  Move 8: Nxd4 mistake (-26% win) by black
+  Move 18: Nd5 blunder (-33% win) by white
+  Move 22: Kd8 inaccuracy (-14% win) by black
+  Move 36: h3 blunder (-56% win) by white
+  Move 46: Ne7 mistake (-27% win) by black
+  Move 50: Kh3 mistake (-25% win) by white
+  Move 51: Kg7 blunder (-34% win) by black
+  Move 52: Kf2 blunder (-39% win) by white
+  Move 52: Rc4 blunder (-41% win) by black
+  Move 53: Ke3 blunder (-42% win) by white
+  Move 53: Rc8 blunder (-45% win) by black
+  Move 56: Kc5 blunder (-44% win) by white
+  Move 56: d4 mistake (-21% win) by black
+  Move 57: Kc6 mistake (-21% win) by white
+  Move 57: Rg8 inaccuracy (-15% win) by black
+  Move 59: Kc6 inaccuracy (-13% win) by white
+  Move 59: Ke5 inaccuracy (-14% win) by black
+  Move 61: Kf4 mistake (-29% win) by black
+  Move 63: Kd5 blunder (-36% win) by white
+Analyzing game_201.pgn
+  Move 5: e5 inaccuracy (-12% win) by black
+  Move 9: Ne5 mistake (-21% win) by white
+  Move 10: Qxe5 mistake (-26% win) by black
+  Move 16: f3 inaccuracy (-11% win) by white
+  Move 17: Rxf3 inaccuracy (-10% win) by black
+  Move 18: Rxf3 blunder (-93% win) by white
+Analyzing game_202.pgn
+  Move 4: d3 inaccuracy (-12% win) by white
+  Move 5: d4 inaccuracy (-12% win) by black
+  Move 6: Nd5 mistake (-20% win) by white
+  Move 8: Qc6 inaccuracy (-10% win) by black
+  Move 9: Nxe5 inaccuracy (-15% win) by white
+  Move 10: Bxg4 inaccuracy (-12% win) by white
+  Move 12: Qf4+ blunder (-41% win) by black
+  Move 14: Nd7+ mistake (-25% win) by white
+  Move 15: Bg5 blunder (-34% win) by white
+  Move 15: f6 mistake (-22% win) by black
+  Move 17: Bxf6 inaccuracy (-14% win) by white
+  Move 18: Nd7 blunder (-80% win) by black
+  Move 19: Bxh8 blunder (-35% win) by white
+  Move 21: Re1 blunder (-42% win) by white
+  Move 21: Kb8 blunder (-44% win) by black
+  Move 22: Bf6 blunder (-45% win) by white
+Analyzing game_203.pgn
+  Move 3: Bd6 inaccuracy (-14% win) by black
+  Move 5: Bd3 inaccuracy (-15% win) by white
+  Move 6: h5 inaccuracy (-12% win) by black
+  Move 8: Bb4 inaccuracy (-15% win) by black
+  Move 9: d5 inaccuracy (-14% win) by black
+  Move 15: c3 inaccuracy (-13% win) by white
+  Move 16: Bf5 blunder (-51% win) by white
+  Move 18: Rg8 inaccuracy (-16% win) by black
+  Move 21: dxe6 mistake (-26% win) by white
+  Move 21: Kf8 blunder (-75% win) by black
+  Move 26: Qe4+ inaccuracy (-12% win) by white
+  Move 48: b6 inaccuracy (-14% win) by white
+  Move 51: h4 blunder (-70% win) by white
+  Move 53: Nf3+ blunder (-41% win) by black
+Analyzing game_204.pgn
+  Move 11: g3 inaccuracy (-13% win) by white
+  Move 13: Nf3 inaccuracy (-13% win) by white
+  Move 19: Re8 mistake (-27% win) by black
+  Move 21: Nd4 blunder (-37% win) by white
+  Move 21: Bd5 blunder (-46% win) by black
+  Move 23: Bc4 inaccuracy (-12% win) by black
+  Move 24: Rg3 blunder (-47% win) by white
+Analyzing game_205.pgn
+  Move 7: cxd5 mistake (-24% win) by white
+  Move 8: Qe4 inaccuracy (-15% win) by white
+Analyzing game_206.pgn
+  Move 3: h6 inaccuracy (-10% win) by black
+  Move 6: cxd5 inaccuracy (-11% win) by black
+  Move 15: Bb5 mistake (-23% win) by white
+  Move 20: f6 inaccuracy (-14% win) by black
+  Move 22: a3 inaccuracy (-11% win) by white
+  Move 24: Rxd4 blunder (-46% win) by white
+Analyzing game_207.pgn
+  Move 2: Nc3 inaccuracy (-12% win) by white
+  Move 6: Bg4 inaccuracy (-13% win) by black
+  Move 10: c4 mistake (-27% win) by white
+  Move 19: Bc5 mistake (-30% win) by black
+  Move 22: Bxg8 inaccuracy (-14% win) by white
+  Move 23: g3 inaccuracy (-19% win) by white
+  Move 23: Na5 inaccuracy (-16% win) by black
+  Move 24: Rc1 mistake (-20% win) by white
+  Move 24: Nc4 inaccuracy (-16% win) by black
+  Move 25: Rb1 inaccuracy (-18% win) by white
+  Move 31: Rf2+ blunder (-72% win) by black
+Analyzing game_208.pgn
+  Move 6: f5 inaccuracy (-15% win) by black
+  Move 9: e6 inaccuracy (-16% win) by white
+  Move 11: Qxd4 blunder (-32% win) by black
+  Move 12: Qc8+ inaccuracy (-18% win) by white
+  Move 13: Qh3 mistake (-26% win) by white
+  Move 14: Qf5 blunder (-58% win) by black
+  Move 15: O-O-O blunder (-70% win) by white
+  Move 16: Bxa2+ blunder (-43% win) by black
+  Move 17: e5 blunder (-32% win) by black
+  Move 18: Qh5+ blunder (-57% win) by white
+  Move 21: Qe1 inaccuracy (-17% win) by white
+  Move 22: Qd5 blunder (-59% win) by black
+Analyzing game_209.pgn
+  Move 10: Bc3 inaccuracy (-11% win) by white
+  Move 11: Qf2 blunder (-37% win) by white
+  Move 11: Qxf2+ blunder (-44% win) by black
+  Move 16: Nc5 inaccuracy (-13% win) by white
+  Move 22: Rxf1 inaccuracy (-20% win) by black
+Analyzing game_210.pgn
+  Move 18: c3 blunder (-42% win) by white
+Analyzing game_211.pgn
+  Move 20: Re4 blunder (-38% win) by white
+Analyzing game_212.pgn
+  Move 10: Nc3 mistake (-27% win) by white
+Analyzing game_213.pgn
+  Move 6: Bb5 inaccuracy (-15% win) by white
+  Move 7: Qd6 inaccuracy (-14% win) by black
+  Move 10: O-O mistake (-23% win) by white
+  Move 16: Re3 inaccuracy (-19% win) by white
+Analyzing game_214.pgn
+  Move 6: Qa5+ inaccuracy (-18% win) by black
+  Move 7: Qxb5 blunder (-31% win) by black
+Analyzing game_215.pgn
+  Move 11: Bc2 inaccuracy (-13% win) by white
+  Move 15: Bxh7+ mistake (-21% win) by white
+  Move 17: Rxe2 inaccuracy (-13% win) by black
+  Move 18: Be3 inaccuracy (-17% win) by white
+Analyzing game_216.pgn
+  Move 3: f6 inaccuracy (-13% win) by black
+  Move 6: Bb5 inaccuracy (-12% win) by white
+  Move 11: Qd2 mistake (-22% win) by white
+  Move 14: Nxe7+ inaccuracy (-15% win) by white
+  Move 17: dxc5 inaccuracy (-14% win) by white
+  Move 17: dxc5 inaccuracy (-16% win) by black
+  Move 18: Qd7 mistake (-20% win) by white
+  Move 18: Ng6 blunder (-86% win) by black
+Analyzing game_217.pgn
+  Move 15: a4 inaccuracy (-13% win) by white
+  Move 16: Bd6 blunder (-35% win) by black
+  Move 17: Rxb7 mistake (-25% win) by white
+  Move 18: Rab8 inaccuracy (-15% win) by black
+  Move 25: Rac8 mistake (-27% win) by black
+  Move 26: Ne5 blunder (-40% win) by white
+  Move 27: Bd4 inaccuracy (-18% win) by white
+  Move 31: Rd2 inaccuracy (-11% win) by black
+  Move 32: Rb2 inaccuracy (-10% win) by black
+  Move 33: Bxf4 mistake (-26% win) by white
+  Move 35: Ke1 inaccuracy (-13% win) by white
+  Move 41: e3 blunder (-41% win) by black
+  Move 42: Rb8 blunder (-46% win) by black
+Analyzing game_218.pgn
+  Move 4: d5 inaccuracy (-13% win) by black
+  Move 8: Nbxd5 inaccuracy (-11% win) by black
+  Move 12: Re8 inaccuracy (-13% win) by black
+  Move 13: b6 inaccuracy (-11% win) by black
+  Move 15: Qd5 inaccuracy (-10% win) by black
+  Move 16: dxe4 inaccuracy (-11% win) by white
+  Move 16: Qxa2 mistake (-29% win) by black
+  Move 18: Re6 inaccuracy (-14% win) by black
+Analyzing game_219.pgn
+  Move 15: Nf3 inaccuracy (-13% win) by white
+  Move 15: b5 inaccuracy (-15% win) by black
+  Move 16: Re7 inaccuracy (-14% win) by black
+  Move 17: Ng4 inaccuracy (-14% win) by white
+  Move 17: Nxg4 blunder (-36% win) by black
+Analyzing game_220.pgn
+  Move 5: Nxd5 inaccuracy (-20% win) by white
+  Move 6: Nc3 inaccuracy (-15% win) by white
+  Move 8: Rg1 mistake (-21% win) by white
+  Move 10: Bxe6 inaccuracy (-10% win) by white
+  Move 13: Nc6 blunder (-89% win) by black
+Analyzing game_221.pgn
+  Move 4: d4 inaccuracy (-11% win) by white
+  Move 5: Bc4 mistake (-24% win) by white
+  Move 21: Be7 blunder (-33% win) by black
+  Move 26: Bxg7 blunder (-41% win) by white
+Analyzing game_222.pgn
+  Move 2: f3 inaccuracy (-12% win) by white
+  Move 7: O-O inaccuracy (-10% win) by black
+  Move 9: Nxd5 mistake (-23% win) by black
+  Move 10: Bb5 blunder (-49% win) by white
+  Move 10: Nd4 blunder (-30% win) by black
+  Move 13: Re8 blunder (-33% win) by black
+Analyzing game_223.pgn
+Analyzing game_224.pgn
+  Move 6: d3 inaccuracy (-12% win) by white
+  Move 7: Ne4 inaccuracy (-15% win) by white
+  Move 9: Bb4 blunder (-44% win) by black
+  Move 14: Bh6 mistake (-27% win) by white
+  Move 14: Re6 mistake (-26% win) by black
+  Move 18: Nc5 inaccuracy (-15% win) by white
+  Move 18: Re8 inaccuracy (-15% win) by black
+Analyzing game_225.pgn
+  Move 7: Bxe3 blunder (-43% win) by black
+  Move 8: Qxe3 blunder (-46% win) by white
+  Move 9: c3 inaccuracy (-20% win) by white
+  Move 16: Bxf7+ inaccuracy (-11% win) by white
+Analyzing game_226.pgn
+  Move 12: Bxc5 mistake (-22% win) by white
+  Move 12: a6 blunder (-32% win) by black
+  Move 13: Qb4 blunder (-51% win) by white
+Analyzing game_227.pgn
+  Move 9: d5 inaccuracy (-11% win) by black
+  Move 14: c6 inaccuracy (-10% win) by black
+  Move 15: Rae1 inaccuracy (-17% win) by white
+  Move 17: Re8 inaccuracy (-15% win) by black
+  Move 20: b5 blunder (-31% win) by black
+  Move 21: Qxb5 mistake (-21% win) by white
+  Move 21: Qc1 mistake (-21% win) by black
+Analyzing game_228.pgn
+  Move 8: Nxe7 inaccuracy (-11% win) by black
+  Move 10: d5 mistake (-23% win) by black
+  Move 11: dxe5 inaccuracy (-12% win) by white
+  Move 16: Re1 inaccuracy (-12% win) by white
+  Move 17: Ne5 blunder (-41% win) by white
+  Move 19: Qxe6+ inaccuracy (-13% win) by white
+Analyzing game_229.pgn
+  Move 8: f6 inaccuracy (-13% win) by black
+  Move 9: exf6 inaccuracy (-19% win) by white
+  Move 9: Bxf6 inaccuracy (-14% win) by black
+  Move 10: Ne5 mistake (-22% win) by white
+  Move 12: Bxe6 inaccuracy (-10% win) by white
+  Move 12: Qe7 inaccuracy (-12% win) by black
+  Move 13: Qg4 inaccuracy (-12% win) by white
+  Move 14: g6 blunder (-38% win) by black
+  Move 15: Ng4 blunder (-38% win) by black
+Analyzing game_230.pgn
+  Move 3: Bd3 mistake (-27% win) by white
+  Move 4: Bd6 inaccuracy (-20% win) by black
+  Move 5: Nc6 inaccuracy (-18% win) by black
+  Move 10: Bg5 blunder (-34% win) by white
+  Move 12: cxb2 blunder (-48% win) by black
+  Move 13: Be6 mistake (-28% win) by black
+Analyzing game_231.pgn
+  Move 12: Qd2 mistake (-29% win) by white
+  Move 12: Re8 mistake (-23% win) by black
+  Move 13: Be2 mistake (-26% win) by white
+  Move 13: d4 blunder (-41% win) by black
+  Move 17: Bf3 inaccuracy (-11% win) by white
+  Move 22: b6 mistake (-21% win) by black
+  Move 23: Ba6 inaccuracy (-17% win) by black
+  Move 24: Rfe1 inaccuracy (-18% win) by white
+Analyzing game_232.pgn
+  Move 4: Bg4 inaccuracy (-12% win) by black
+  Move 5: O-O inaccuracy (-13% win) by white
+  Move 8: Be3 inaccuracy (-14% win) by white
+  Move 8: e5 inaccuracy (-17% win) by black
+  Move 11: Bd4 blunder (-34% win) by white
+Analyzing game_233.pgn
+  Move 2: Bd3 inaccuracy (-11% win) by white
+  Move 5: f5 inaccuracy (-17% win) by black
+  Move 8: g4 inaccuracy (-10% win) by black
+  Move 10: e6 inaccuracy (-13% win) by black
+  Move 15: Qg4 inaccuracy (-19% win) by white
+  Move 15: Kc7 mistake (-23% win) by black
+  Move 18: Qa5+ blunder (-46% win) by white
+  Move 19: Rxe7+ blunder (-32% win) by white
+Analyzing game_234.pgn
+  Move 8: O-O-O inaccuracy (-11% win) by black
+  Move 13: Nf5 inaccuracy (-12% win) by black
+  Move 14: Nxe5 inaccuracy (-13% win) by black
+  Move 15: Bc2 inaccuracy (-14% win) by white
+  Move 15: Qc7 inaccuracy (-14% win) by black
+Analyzing game_235.pgn
+  Move 2: f3 inaccuracy (-14% win) by white
+  Move 9: Re1 inaccuracy (-12% win) by white
+  Move 9: Be7 inaccuracy (-13% win) by black
+  Move 16: Nc6 mistake (-27% win) by black
+  Move 17: c4 mistake (-26% win) by white
+  Move 19: f5 blunder (-34% win) by black
+  Move 31: c5+ inaccuracy (-10% win) by white
+  Move 31: Kd5 inaccuracy (-12% win) by black
+Analyzing game_236.pgn
+  Move 10: Nxd2 inaccuracy (-16% win) by white
+  Move 15: Ne4 blunder (-49% win) by black
+  Move 16: Re1 blunder (-72% win) by white
+  Move 25: Nb5 inaccuracy (-15% win) by white
+Analysis complete.

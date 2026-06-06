@@ -16,6 +16,8 @@ CREATE TABLE analysis (
     eval_drop REAL,
     eval_before REAL,
     eval_after REAL,
+    cpl REAL,
+    accuracy REAL,
     phase TEXT
 )
 """)

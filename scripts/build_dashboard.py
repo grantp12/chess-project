@@ -14,9 +14,8 @@ OUTPUT = "dashboard.html"
 
 games_data = []
 
-for filename in sorted(os.listdir(BASE_DIR), key=lambda f: int(f.replace("game_", "").replace(".pgn", ""))):
-    if not filename.endswith(".pgn"):
-        continue
+pgn_files = [f for f in os.listdir(BASE_DIR) if f.endswith(".pgn")]
+for filename in sorted(pgn_files, key=lambda f: int(f.replace("game_", "").replace(".pgn", ""))):
     filepath = os.path.join(BASE_DIR, filename)
     with open(filepath) as f:
         game = chess.pgn.read_game(f)
@@ -44,8 +43,8 @@ for filename in sorted(os.listdir(BASE_DIR), key=lambda f: int(f.replace("game_"
     time_control = headers.get("TimeControl", "?")
     termination = headers.get("Termination", "")
 
-    # Count moves
-    move_count = sum(1 for _ in game.mainline_moves())
+    # Count full moves (mainline yields half-moves/plies)
+    move_count = (sum(1 for _ in game.mainline_moves()) + 1) // 2
 
     games_data.append({
         "file": filename,
@@ -77,32 +76,27 @@ mistakes_by_game = defaultdict(lambda: {"blunder": 0, "mistake": 0, "inaccuracy"
 for game_file, classification, count in cursor.fetchall():
     mistakes_by_game[game_file][classification] = count
 
-# Accuracy per game: average centipawn loss for user's moves
+# Accuracy per game: mean of per-move accuracy (win%-based, computed at analysis time)
 cursor.execute("""
-    SELECT game_file, AVG(CASE WHEN eval_drop > 0 THEN eval_drop ELSE 0 END), COUNT(*)
+    SELECT game_file, AVG(accuracy)
     FROM analysis
     WHERE is_user = 1
     GROUP BY game_file
 """)
 accuracy_by_game = {}
-for game_file, avg_loss, move_count in cursor.fetchall():
-    # Convert avg centipawn loss to accuracy percentage
-    # Formula: accuracy = max(0, 100 - avg_loss * 20)
-    # avg_loss of 0 = 100%, avg_loss of 5 = 0%
-    accuracy = max(0, min(100, 100 - (avg_loss or 0) * 20))
-    accuracy_by_game[game_file] = round(accuracy, 1)
+for game_file, avg_acc in cursor.fetchall():
+    accuracy_by_game[game_file] = round(avg_acc or 0, 1)
 
-# Phase analysis: user's avg centipawn loss by phase
+# Phase analysis: user's mean accuracy and average centipawn loss (ACPL) by phase
 cursor.execute("""
-    SELECT phase, AVG(CASE WHEN eval_drop > 0 THEN eval_drop ELSE 0 END), COUNT(*)
+    SELECT phase, AVG(accuracy), AVG(cpl), COUNT(*)
     FROM analysis
     WHERE is_user = 1
     GROUP BY phase
 """)
 phase_stats = {}
-for phase, avg_loss, count in cursor.fetchall():
-    accuracy = max(0, min(100, 100 - (avg_loss or 0) * 20))
-    phase_stats[phase] = {"accuracy": round(accuracy, 1), "moves": count, "avg_loss": round(avg_loss or 0, 2)}
+for phase, avg_acc, avg_cpl, count in cursor.fetchall():
+    phase_stats[phase] = {"accuracy": round(avg_acc or 0, 1), "moves": count, "acpl": round(avg_cpl or 0)}
 
 # Phase mistakes breakdown (user only)
 cursor.execute("""
@@ -165,7 +159,7 @@ rating_max = max(ratings)
 
 # Phase data for chart
 phases_order = ["opening", "middlegame", "endgame"]
-phase_labels = json.dumps(["Opening (1-15)", "Middlegame (16-30)", "Endgame (30+)"])
+phase_labels = json.dumps(["Opening", "Middlegame", "Endgame"])
 phase_accuracy_data = json.dumps([phase_stats.get(p, {}).get("accuracy", 0) for p in phases_order])
 phase_blunders = json.dumps([phase_mistakes.get(p, {}).get("blunder", 0) for p in phases_order])
 phase_mistakes_data = json.dumps([phase_mistakes.get(p, {}).get("mistake", 0) for p in phases_order])
@@ -378,9 +372,9 @@ tr:hover td {{
 
 # Phase summary cards
 for phase in phases_order:
-    ps = phase_stats.get(phase, {"accuracy": 0, "moves": 0, "avg_loss": 0})
+    ps = phase_stats.get(phase, {"accuracy": 0, "moves": 0, "acpl": 0})
     pm = phase_mistakes.get(phase, {"blunder": 0, "mistake": 0, "inaccuracy": 0})
-    label = {"opening": "Opening (1-15)", "middlegame": "Middlegame (16-30)", "endgame": "Endgame (30+)"}[phase]
+    label = {"opening": "Opening", "middlegame": "Middlegame", "endgame": "Endgame"}[phase]
     # Color accuracy
     acc = ps["accuracy"]
     if acc >= 70:
@@ -394,7 +388,7 @@ for phase in phases_order:
             <div class="phase-card">
                 <div class="phase-name">{label}</div>
                 <div class="phase-accuracy" style="color:{color}">{acc}%</div>
-                <div class="phase-detail">{ps['moves']} moves &middot; {ps['avg_loss']} avg loss</div>
+                <div class="phase-detail">{ps['moves']} moves &middot; {ps['acpl']} ACPL</div>
                 <div class="phase-detail">{pm['blunder']}B / {pm['mistake']}M / {pm['inaccuracy']}I</div>
             </div>"""
 

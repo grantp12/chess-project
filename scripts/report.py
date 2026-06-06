@@ -14,15 +14,14 @@ cursor.execute("SELECT COUNT(*) FROM analysis WHERE is_user = 1")
 user_moves = cursor.fetchone()[0]
 print(f"Your moves: {user_moves}")
 
-# Accuracy
+# Accuracy (win%-based per-move accuracy and capped centipawn loss, from analysis)
 cursor.execute("""
-    SELECT AVG(CASE WHEN eval_drop > 0 THEN eval_drop ELSE 0 END)
+    SELECT AVG(accuracy), AVG(cpl)
     FROM analysis WHERE is_user = 1
 """)
-avg_loss = cursor.fetchone()[0] or 0
-accuracy = max(0, min(100, 100 - avg_loss * 20))
-print(f"Overall accuracy: {accuracy:.1f}%")
-print(f"Average centipawn loss: {avg_loss:.2f}")
+avg_acc, avg_cpl = cursor.fetchone()
+print(f"Overall accuracy: {(avg_acc or 0):.1f}%")
+print(f"Average centipawn loss: {(avg_cpl or 0):.0f}")
 
 print("\n--- Your Mistakes by Classification ---")
 
@@ -39,15 +38,14 @@ for classification, count in cursor.fetchall():
 print("\n--- Your Accuracy by Phase ---")
 
 cursor.execute("""
-    SELECT phase, AVG(CASE WHEN eval_drop > 0 THEN eval_drop ELSE 0 END), COUNT(*)
+    SELECT phase, AVG(accuracy), AVG(cpl), COUNT(*)
     FROM analysis
     WHERE is_user = 1
     GROUP BY phase
     ORDER BY CASE phase WHEN 'opening' THEN 1 WHEN 'middlegame' THEN 2 ELSE 3 END
 """)
-for phase, avg_loss, count in cursor.fetchall():
-    acc = max(0, min(100, 100 - (avg_loss or 0) * 20))
-    print(f"  {phase:12s}: {acc:.1f}% accuracy ({count} moves, {avg_loss:.2f} avg loss)")
+for phase, avg_acc, avg_cpl, count in cursor.fetchall():
+    print(f"  {phase:12s}: {(avg_acc or 0):.1f}% accuracy ({count} moves, {(avg_cpl or 0):.0f} ACPL)")
 
 print("\n--- Your Worst Moves ---")
 
