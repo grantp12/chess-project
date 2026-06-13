@@ -5,7 +5,8 @@ from collections import defaultdict
 import json
 from datetime import datetime
 
-USERNAME = "Tonymontana013"
+USERNAME = "Tonymontana013"  # chess.com handle — used to match games, do not change
+DISPLAY_NAME = "Grant P."  # shown in the dashboard UI
 BASE_DIR = "games"
 DB_PATH = "chess.db"
 OUTPUT = "dashboard.html"
@@ -172,7 +173,7 @@ html = f"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chess Dashboard — {USERNAME}</title>
+<title>Chess Dashboard — {DISPLAY_NAME}</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 <style>
 * {{ margin: 0; padding: 0; box-sizing: border-box; }}
@@ -337,7 +338,7 @@ tr:hover td {{
 </head>
 <body>
 
-<h1>&#9816; {USERNAME}</h1>
+<h1>&#9816; {DISPLAY_NAME}</h1>
 <p class="subtitle">{total} games analyzed &middot; {games_data[0]['date'].replace('.', '/')} to {games_data[-1]['date'].replace('.', '/')} &middot; Rating {rating_min} &rarr; {rating_max}</p>
 
 <div class="stats-row">
